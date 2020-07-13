@@ -80,18 +80,26 @@ function Home() {
 			<div className="project-list">
 				<div className="proj-text">Projects</div>
 				<div className="proj-list">
-					<img src="#" />
-					<a href="#">Deployed Link</a>
-					<a href="#">GitHub Link</a>
-					<img src="#" />
-					<a href="#">Deployed Link</a>
-					<a href="#">GitHub Link</a>
-					<img src="#" />
-					<a href="#">Deployed Link</a>
-					<a href="#">GitHub Link</a>
-					<img src="#" />
-					<a href="#">Deployed Link</a>
-					<a href="#">GitHub Link</a>
+					<div className="projects">
+						<img src={self} />
+						<a href="#">Deployed Link</a>
+						<a href="#">GitHub Link</a>
+					</div>
+					<div className="projects">
+						<img src={self} />
+						<a href="#">Deployed Link</a>
+						<a href="#">GitHub Link</a>
+					</div>
+					<div className="projects">
+						<img src={self} />
+						<a href="#">Deployed Link</a>
+						<a href="#">GitHub Link</a>
+					</div>
+					<div className="projects">
+						<img src={self} />
+						<a href="#">Deployed Link</a>
+						<a href="#">GitHub Link</a>
+					</div>
 				</div>
 			</div>
 			<div className="footer">Footer</div>
