@@ -5,6 +5,8 @@ nav {
 	display: flex;
 	margin-left: auto;
 	color: rgb(219, 219, 219);
+	position: sticky;
+	overflow: auto;
 }
 
 .logo {
@@ -29,4 +31,8 @@ nav {
 .top-links li a {
 	color: rgb(219, 219, 219);
 	text-decoration: none;
+}
+
+.jumbo-container {
+	position: relative;
 }

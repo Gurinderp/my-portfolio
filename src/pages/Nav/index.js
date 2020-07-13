@@ -5,7 +5,7 @@ import "./index.css";
 function Nav() {
 	return (
 		<nav>
-			<div className="logo">Gurinderpreet Singh</div>
+			<div className="logo">Gurinder</div>
 			<ul className="top-links">
 				<li>
 					<Link to="/">Home</Link>
