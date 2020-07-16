@@ -8,7 +8,27 @@ function Home() {
 	return (
 		<div className="container">
 			<div className="heading">
-				<img className="self-pic" src={self} />
+				<div>
+					<img className="self-pic" src={self} alt="self-pic" />
+					<div className="media-links">
+						<a
+							href="https://github.com/Gurinderp"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img src={github} alt="github" />
+							<p>GitHub</p>
+						</a>
+						<a
+							href="https://www.linkedin.com/in/gurinderpreet-singh/"
+							target="_blank"
+							rel="noopener noreferrer"
+						>
+							<img src={linkedin} alt="linkedin" />
+							<p>LinkedIn</p>
+						</a>
+					</div>
+				</div>
 				<h3 className="heading-text">
 					<p>Hello World!</p>
 					<p>
@@ -18,16 +38,6 @@ function Home() {
 				</h3>
 			</div>
 
-			<div className="media-links">
-				<a href="#">
-					<img src={github} />
-					<p>GitHub</p>
-				</a>
-				<a href="#">
-					<img src={linkedin} />
-					<p>LinkedIn</p>
-				</a>
-			</div>
 			<div className="skills">
 				<div className="skill-wording">
 					<p>Technical Knowledge</p>
@@ -35,43 +45,43 @@ function Home() {
 				<div className="skill-image">
 					<div className="row-one">
 						<div className="skill-container">
-							<img src={self} />
+							<img src={self} alt="HTML" />
 							<p>HTML</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} />
+							<img src={self} alt="CSS" />
 							<p>CSS</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} />
+							<img src={self} alt="JavaScript" />
 							<p>JavaScript</p>
 						</div>
 					</div>
 					<div className="mern-row">
 						<div className="skill-container">
-							<img src={self} />
+							<img src={self} alt="MongoDB" />
 							<p>MongoDB</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} />
+							<img src={self} alt="Express" />
 							<p>Express</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} />
+							<img src={self} alt="React" />
 							<p>React</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} />
+							<img src={self} alt="Node.JS" />
 							<p>NodeJS</p>
 						</div>
 					</div>
 					<div className="row-three">
 						<div className="skill-container">
-							<img src={self} />
+							<img src={self} alt="MySQL" />
 							<p>MySQL</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} />
+							<img src={self} alt="Angular" />
 							<p>Angular</p>
 						</div>
 					</div>
@@ -81,28 +91,27 @@ function Home() {
 				<div className="proj-text">Projects</div>
 				<div className="proj-list">
 					<div className="projects">
-						<img src={self} />
+						<img src={self} alt="first project" />
 						<a href="#">Deployed Link</a>
 						<a href="#">GitHub Link</a>
 					</div>
 					<div className="projects">
-						<img src={self} />
+						<img src={self} alt="second project" />
 						<a href="#">Deployed Link</a>
 						<a href="#">GitHub Link</a>
 					</div>
 					<div className="projects">
-						<img src={self} />
+						<img src={self} alt="third project" />
 						<a href="#">Deployed Link</a>
 						<a href="#">GitHub Link</a>
 					</div>
 					<div className="projects">
-						<img src={self} />
+						<img src={self} alt="fourth project" />
 						<a href="#">Deployed Link</a>
 						<a href="#">GitHub Link</a>
 					</div>
 				</div>
 			</div>
-			<div className="footer">Footer</div>
 		</div>
 	);
 }

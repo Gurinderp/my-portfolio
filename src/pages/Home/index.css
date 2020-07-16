@@ -1,6 +1,7 @@
 body {
 	color: white;
 	background-image: url(../../assets/bg-3.jpg);
+	position: relative;
 }
 
 .container {
@@ -9,7 +10,8 @@ body {
 	background-color: rgba(11, 65, 0, 0.226);
 	border-radius: 10px;
 	margin-top: 1%;
-	width: auto;
+	width: 80%;
+	height: auto;
 }
 
 .heading {
@@ -22,9 +24,9 @@ body {
 }
 
 .heading-text {
-	margin-left: 10%;
+	margin-left: 25%;
 	margin-top: 10%;
-	font-size: 35px;
+	font-size: 2vw;
 }
 
 .img-fluid {
@@ -41,25 +43,27 @@ body {
 
 .media-links {
 	display: flex;
-	width: 300px;
-	justify-content: space-evenly;
-	margin-left: 5%;
+	margin-left: 40%;
 	margin-top: 1%;
 	text-align: center;
+	width: 100%;
+	justify-content: space-evenly;
+	font-size: 1vw;
 }
 
 .media-links img {
 	width: 40px;
 	height: 40px;
 	object-fit: cover;
+	border: solid hotpink;
 }
 
 .self-pic {
-	width: 23%;
-	height: 23%;
+	width: 15vw;
+	height: 15vw;
 	border-radius: 50%;
-	margin-left: 5%;
-	margin-top: 5%;
+	margin-left: 35%;
+	margin-top: 25%;
 }
 
 .skills,
@@ -74,6 +78,7 @@ body {
 	padding: 15px;
 	width: 70%;
 	flex-wrap: wrap;
+	border: black solid;
 }
 
 .skill-wording,
@@ -81,7 +86,7 @@ body {
 	width: 40%;
 	padding: 5%;
 	padding-top: 0;
-	font-size: 40px;
+	font-size: 2.3vw;
 }
 
 .skill-image {
