@@ -1,8 +1,8 @@
 import React from "react";
 import "./index.css";
 import self from "../../assets/self.png";
-import github from "../../assets/github.png";
-import linkedin from "../../assets/linkedin.png";
+import express from "../../assets/express.jpg";
+import mysql from "../../assets/mysql.png";
 
 function Home() {
 	return (
@@ -16,7 +16,10 @@ function Home() {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img src={github} alt="github" />
+							<img
+								src="https://img.icons8.com/clouds/50/000000/github.png"
+								alt="github"
+							/>
 							<p>GitHub</p>
 						</a>
 						<a
@@ -24,7 +27,10 @@ function Home() {
 							target="_blank"
 							rel="noopener noreferrer"
 						>
-							<img src={linkedin} alt="linkedin" />
+							<img
+								src="https://img.icons8.com/clouds/50/000000/linkedin.png"
+								alt="linkedin"
+							/>
 							<p>LinkedIn</p>
 						</a>
 					</div>
@@ -45,43 +51,64 @@ function Home() {
 				<div className="skill-image">
 					<div className="row-one">
 						<div className="skill-container">
-							<img src={self} alt="HTML" />
+							<img
+								src="https://img.icons8.com/officel/96/000000/html.png"
+								alt="HTML"
+							/>
 							<p>HTML</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} alt="CSS" />
+							<img
+								src="https://img.icons8.com/officel/96/000000/css.png"
+								alt="CSS"
+							/>
 							<p>CSS</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} alt="JavaScript" />
+							<img
+								src="https://img.icons8.com/color/96/000000/javascript.png"
+								alt="JavaScript"
+							/>
 							<p>JavaScript</p>
 						</div>
 					</div>
 					<div className="mern-row">
 						<div className="skill-container">
-							<img src={self} alt="MongoDB" />
+							<img
+								src="https://img.icons8.com/color/96/000000/mongodb.png"
+								alt="MongoDB"
+							/>
 							<p>MongoDB</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} alt="Express" />
+							<img src={express} alt="Express" />
 							<p>Express</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} alt="React" />
+							<img
+								src="https://img.icons8.com/nolan/96/react-native.png"
+								alt="React"
+							/>
 							<p>React</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} alt="Node.JS" />
+							<img
+								src="https://img.icons8.com/color/96/000000/nodejs.png"
+								alt="Node.JS"
+							/>
 							<p>NodeJS</p>
 						</div>
 					</div>
 					<div className="row-three">
 						<div className="skill-container">
-							<img src={self} alt="MySQL" />
+							<img src={mysql} alt="MySQL" />
 							<p>MySQL</p>
 						</div>
 						<div className="skill-container">
-							<img src={self} alt="Angular" />
+							<img
+								src="https://img.icons8.com/color/96/000000/angularjs.png"
+								alt="Angular"
+							/>
 							<p>Angular</p>
 						</div>
 					</div>
