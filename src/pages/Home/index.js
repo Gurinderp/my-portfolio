@@ -5,6 +5,10 @@ import express from "../../assets/express.jpg";
 import mysql from "../../assets/mysql.png";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
+import projone from "../../assets/projone.png";
+import projtwo from "../../assets/projtwo.png";
+import evoproj from "../../assets/evoproj.png";
+import fitness from "../../assets/ftnstrkr.png";
 
 function Home() {
 	return (
@@ -114,22 +118,22 @@ function Home() {
 				<div className="proj-text">Projects</div>
 				<div className="proj-list">
 					<div className="projects">
-						<img src={self} alt="first project" />
+						<img src={projone} alt="first project" />
 						<a href="#">Deployed Link</a>
 						<a href="#">GitHub Link</a>
 					</div>
 					<div className="projects">
-						<img src={self} alt="second project" />
+						<img src={projtwo} alt="second project" />
 						<a href="#">Deployed Link</a>
 						<a href="#">GitHub Link</a>
 					</div>
 					<div className="projects">
-						<img src={self} alt="third project" />
+						<img src={evoproj} alt="third project" />
 						<a href="#">Deployed Link</a>
 						<a href="#">GitHub Link</a>
 					</div>
 					<div className="projects">
-						<img src={self} alt="fourth project" />
+						<img src={fitness} alt="fourth project" />
 						<a href="#">Deployed Link</a>
 						<a href="#">GitHub Link</a>
 					</div>

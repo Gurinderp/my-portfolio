@@ -5,6 +5,8 @@ body {
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 	position: relative;
 }
 
@@ -57,8 +59,8 @@ body {
 }
 
 .self-pic {
-	width: 15vw;
-	height: 15vw;
+	width: 17vw;
+	height: 17vw;
 	border-radius: 50%;
 	margin-left: 35%;
 	margin-top: 25%;
@@ -83,10 +85,13 @@ body {
 .skill-wording,
 .proj-text {
 	width: 40%;
-	padding: 5%;
-	padding-top: 0;
+	padding: 7%;
+	padding-top: 2%;
 	font-size: 2.3vw;
 	color: #60db8f;
+	text-align: center;
+	border-top: 8px double #60db8f48;
+	border-radius: 140px;
 }
 
 .skill-image {
@@ -97,6 +102,13 @@ body {
 .skill-image img,
 .proj-list img {
 	height: 96px;
+	padding: 1vh;
+}
+
+.skill-image img:hover,
+.proj-list img:hover {
+	transform: scale(1.2);
+	transition: transform 0.3s ease-out;
 }
 
 .proj-list a {
