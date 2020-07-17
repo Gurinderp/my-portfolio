@@ -38,8 +38,8 @@ function Home() {
 				<h3 className="heading-text">
 					<p>Hello World!</p>
 					<p>
-						My Name is Gurinderpreet Singh, AKA Gurinder, and I am a
-						Full Stack Developer with a love for coding!
+						My Name is Gurinderpreet Singh, and I am a Full Stack
+						Developer with a love for coding!
 					</p>
 				</h3>
 			</div>

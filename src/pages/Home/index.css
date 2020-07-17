@@ -1,17 +1,22 @@
 body {
 	color: white;
-	background-image: url(../../assets/bg-3.jpg);
+	background-image: url(../../assets/rand-1.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
 	position: relative;
 }
 
 .container {
 	margin-right: 10%;
 	margin-left: 10%;
-	background-color: rgba(11, 65, 0, 0.226);
+	background-color: rgba(63, 63, 63, 0.226);
 	border-radius: 10px;
 	margin-top: 1%;
 	width: 80%;
 	height: auto;
+	padding-bottom: 5%;
 }
 
 .heading {
@@ -51,10 +56,6 @@ body {
 	font-size: 1vw;
 }
 
-.media-links img {
-	object-fit: cover;
-}
-
 .self-pic {
 	width: 15vw;
 	height: 15vw;
@@ -75,7 +76,7 @@ body {
 	padding: 15px;
 	width: 70%;
 	flex-wrap: wrap;
-	border: black solid;
+	font-size: 1.3vw;
 }
 
 .skill-wording,
@@ -84,6 +85,7 @@ body {
 	padding: 5%;
 	padding-top: 0;
 	font-size: 2.3vw;
+	color: #60db8f;
 }
 
 .skill-image {
@@ -115,8 +117,45 @@ body {
 	overflow: auto;
 }
 
-.footer {
-	text-align: center;
-	width: auto;
-	padding: 20px;
+@media only screen and (max-width: 1050px) {
+	.skill-image img,
+	.proj-list img {
+		height: 80px;
+	}
+	.media-links img {
+		height: 40px;
+		width: 40px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.skill-image img,
+	.proj-list img {
+		height: 65px;
+	}
+	.media-links img {
+		height: 30px;
+		width: 30px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.skill-image img,
+	.proj-list img {
+		height: 40px;
+	}
+	.media-links img {
+		height: 20px;
+		width: 20px;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	.skill-image img,
+	.proj-list img {
+		height: 25px;
+	}
+	.container {
+		padding-bottom: 10%;
+	}
 }
