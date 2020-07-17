@@ -1,6 +1,5 @@
 import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
-import { Link } from "react-router-dom";
 import Nav from "./pages/Nav";
 import Home from "./pages/Home";
 import Contact from "./pages/Contact";
@@ -20,7 +19,7 @@ function App() {
 					<Contact />
 				</Route>
 				<Route path="/resume">
-					<Link to="https://docs.google.com/document/d/1Uru0NtNcy8BVNJEw6YPwmI3LvvrHwxdgUxDz7XHPb9I/edit?usp=sharing"></Link>
+					<Resume />
 				</Route>
 				<Footer />
 			</Router>

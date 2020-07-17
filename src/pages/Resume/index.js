@@ -3,7 +3,7 @@ import "./index.css";
 
 function Resume() {
 	return (
-		<div>
+		<div className="container">
 			<div>Resume</div>
 		</div>
 	);
