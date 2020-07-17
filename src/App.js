@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route } from "react-router-dom";
 import Nav from "./pages/Nav";
 import Home from "./pages/Home";
-import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Footer from "./pages/Footer";
 import "./App.css";
@@ -15,8 +15,8 @@ function App() {
 				<Route exact path="/">
 					<Home />
 				</Route>
-				<Route path="/projects">
-					<Projects />
+				<Route path="/contact">
+					<Contact />
 				</Route>
 				<Route path="/resume">
 					<Resume />

@@ -122,15 +122,18 @@ body {
 }
 
 .proj-list img {
-	height: 96px;
-	width: 96px;
+	height: 200px;
+	width: 200px;
 	padding: 1vh;
 }
 
 .skill-image img:hover,
-.proj-list img:hover {
+.proj-list a img:hover {
 	transform: scale(1.2);
 	transition: transform 0.4s ease-out;
+}
+
+.proj-card:hover {
 }
 
 .proj-list a {

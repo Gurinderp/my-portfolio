@@ -135,14 +135,26 @@ function Home() {
 				<div className="proj-list">
 					<div className="proj-row">
 						<div className="projects">
-							<img src={projone} alt="first project" />
-							<a href="#">
+							<img
+								src={projone}
+								alt="first project"
+								className="proj-card"
+							/>
+							<a
+								href="https://gurinderp.github.io/Bootcamp-group-project-1/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<img
 									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
 									alt="deployed"
 								/>
 							</a>
-							<a href="#">
+							<a
+								href="https://github.com/Gurinderp/Bootcamp-group-project-1"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<img
 									src="https://img.icons8.com/clouds/50/000000/github.png"
 									alt="github"
@@ -151,13 +163,21 @@ function Home() {
 						</div>
 						<div className="projects">
 							<img src={projtwo} alt="second project" />
-							<a href="#">
+							<a
+								href="https://gurinderp.github.io/bootcamp-group-project-2/"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<img
 									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
 									alt="deployed"
 								/>
 							</a>
-							<a href="#">
+							<a
+								href="https://github.com/Gurinderp/bootcamp-group-project-2"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<img
 									src="https://img.icons8.com/clouds/50/000000/github.png"
 									alt="github"
@@ -174,7 +194,11 @@ function Home() {
 									alt="deployed"
 								/>
 							</a>
-							<a href="#">
+							<a
+								href="https://github.com/Gurinderp/Evolution-Project"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<img
 									src="https://img.icons8.com/clouds/50/000000/github.png"
 									alt="github"
@@ -189,7 +213,11 @@ function Home() {
 									alt="deployed"
 								/>
 							</a>
-							<a href="#">
+							<a
+								href="https://github.com/Gurinderp/fitness-tracker"
+								target="_blank"
+								rel="noopener noreferrer"
+							>
 								<img
 									src="https://img.icons8.com/clouds/50/000000/github.png"
 									alt="github"
