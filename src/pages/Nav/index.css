@@ -6,6 +6,7 @@ nav {
 	color: #60db8f;
 	position: sticky;
 	overflow: auto;
+	text-align: center;
 }
 
 .logo {
@@ -41,10 +42,16 @@ nav {
 	nav {
 		height: 60px;
 	}
+	.logo {
+		margin-left: 5%;
+	}
 }
 
 @media only screen and (max-width: 610px) {
 	nav {
 		height: 50px;
+	}
+	.logo {
+		margin-left: 15%;
 	}
 }

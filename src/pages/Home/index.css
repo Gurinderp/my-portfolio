@@ -72,7 +72,8 @@ body {
 	display: flex;
 }
 
-.skill-container {
+.skill-container,
+.proj-list {
 	padding: 15px;
 	width: 70%;
 	flex-wrap: wrap;

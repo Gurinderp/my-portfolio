@@ -3,6 +3,8 @@ import "./index.css";
 import self from "../../assets/self.png";
 import express from "../../assets/express.jpg";
 import mysql from "../../assets/mysql.png";
+import html from "../../assets/html.png";
+import css from "../../assets/css.png";
 
 function Home() {
 	return (
@@ -51,17 +53,11 @@ function Home() {
 				<div className="skill-image">
 					<div className="row-one">
 						<div className="skill-container">
-							<img
-								src="https://img.icons8.com/officel/96/000000/html.png"
-								alt="HTML"
-							/>
+							<img src={html} alt="HTML" />
 							<p>HTML</p>
 						</div>
 						<div className="skill-container">
-							<img
-								src="https://img.icons8.com/officel/96/000000/css.png"
-								alt="CSS"
-							/>
+							<img src={css} alt="CSS" />
 							<p>CSS</p>
 						</div>
 						<div className="skill-container">

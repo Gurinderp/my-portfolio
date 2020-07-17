@@ -4,7 +4,7 @@ import "./index.css";
 function Footer() {
 	return (
 		<div className="footer">
-			<h3>Footer</h3>
+			<h3>&#169; Gurinderpreet Singh</h3>
 		</div>
 	);
 }
