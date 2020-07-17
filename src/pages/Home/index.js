@@ -9,6 +9,7 @@ import projone from "../../assets/projone.png";
 import projtwo from "../../assets/projtwo.png";
 import evoproj from "../../assets/evoproj.png";
 import fitness from "../../assets/ftnstrkr.png";
+import jquery from "../../assets/jquery.png";
 
 function Home() {
 	return (
@@ -49,6 +50,16 @@ function Home() {
 					</p>
 				</h3>
 			</div>
+			<div className="aboutme-section">
+				<p className="aboutme-text">
+					I began learning how to code with HTML and CSS in early
+					2018. I later decided to take it one step further and
+					enrolled in a coding bootcamp at UC Davis Continuing and
+					Professional Education near the end of 2019. From there I
+					learned skills and technologies such as JavaScript, JQuery,
+					Node.JS and many more!
+				</p>
+			</div>
 
 			<div className="skills">
 				<div className="skill-wording">
@@ -62,6 +73,7 @@ function Home() {
 						</div>
 						<div className="skill-container">
 							<img src={css} alt="CSS" />
+
 							<p>CSS</p>
 						</div>
 						<div className="skill-container">
@@ -111,31 +123,79 @@ function Home() {
 							/>
 							<p>Angular</p>
 						</div>
+						<div className="skill-container">
+							<img src={jquery} alt="JQuery" />
+							<p>JQuery</p>
+						</div>
 					</div>
 				</div>
 			</div>
 			<div className="project-list">
 				<div className="proj-text">Projects</div>
 				<div className="proj-list">
-					<div className="projects">
-						<img src={projone} alt="first project" />
-						<a href="#">Deployed Link</a>
-						<a href="#">GitHub Link</a>
+					<div className="proj-row">
+						<div className="projects">
+							<img src={projone} alt="first project" />
+							<a href="#">
+								<img
+									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+									alt="deployed"
+								/>
+							</a>
+							<a href="#">
+								<img
+									src="https://img.icons8.com/clouds/50/000000/github.png"
+									alt="github"
+								/>
+							</a>
+						</div>
+						<div className="projects">
+							<img src={projtwo} alt="second project" />
+							<a href="#">
+								<img
+									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+									alt="deployed"
+								/>
+							</a>
+							<a href="#">
+								<img
+									src="https://img.icons8.com/clouds/50/000000/github.png"
+									alt="github"
+								/>
+							</a>
+						</div>
 					</div>
-					<div className="projects">
-						<img src={projtwo} alt="second project" />
-						<a href="#">Deployed Link</a>
-						<a href="#">GitHub Link</a>
-					</div>
-					<div className="projects">
-						<img src={evoproj} alt="third project" />
-						<a href="#">Deployed Link</a>
-						<a href="#">GitHub Link</a>
-					</div>
-					<div className="projects">
-						<img src={fitness} alt="fourth project" />
-						<a href="#">Deployed Link</a>
-						<a href="#">GitHub Link</a>
+					<div className="proj-row">
+						<div className="projects">
+							<img src={evoproj} alt="third project" />
+							<a href="#">
+								<img
+									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+									alt="deployed"
+								/>
+							</a>
+							<a href="#">
+								<img
+									src="https://img.icons8.com/clouds/50/000000/github.png"
+									alt="github"
+								/>
+							</a>
+						</div>
+						<div className="projects">
+							<img src={fitness} alt="fourth project" />
+							<a href="#">
+								<img
+									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+									alt="deployed"
+								/>
+							</a>
+							<a href="#">
+								<img
+									src="https://img.icons8.com/clouds/50/000000/github.png"
+									alt="github"
+								/>
+							</a>
+						</div>
 					</div>
 				</div>
 			</div>
