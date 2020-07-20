@@ -145,8 +145,16 @@ body {
 	display: flex;
 }
 
+.projects {
+	display: grid;
+}
+
 .projects a img {
 	height: 6vh;
+	width: 3vw;
+}
+
+.projects a {
 	width: 3vw;
 }
 
