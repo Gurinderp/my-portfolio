@@ -1,0 +1,217 @@
+body {
+	color: white;
+	background-image: url(../../assets/rand-1.jpg);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	position: relative;
+}
+
+.container {
+	margin-right: 10%;
+	margin-left: 10%;
+	background-color: rgba(63, 63, 63, 0.226);
+	border-radius: 10px;
+	margin-top: 1%;
+	width: 80%;
+	height: auto;
+	padding-bottom: 5%;
+}
+
+.heading {
+	display: flex;
+}
+
+.heading h3 {
+	width: 40%;
+	word-spacing: 3px;
+}
+
+.heading-text {
+	margin-left: 25%;
+	margin-top: 10%;
+	font-size: 2vw;
+}
+
+.aboutme-text {
+	text-align: center;
+	font-size: 1.3vw;
+	width: 60%;
+	margin-left: 20%;
+	margin-right: 20%;
+	margin-top: 3%;
+	transition: translate(-50%, -50%);
+	line-height: 1.5;
+}
+
+.img-fluid {
+	width: 100%;
+	z-index: -1;
+	position: fixed;
+}
+
+.media-links a,
+.proj-list a {
+	color: white;
+	text-decoration: none;
+	color: rgb(249, 255, 161);
+}
+
+.media-links {
+	display: flex;
+	margin-left: 45%;
+	margin-top: 1%;
+	text-align: center;
+	width: 100%;
+	justify-content: space-evenly;
+	font-size: 1vw;
+}
+
+.media-links img:hover {
+	transform: scale(1.2);
+	transition: transform 0.4s ease-out;
+}
+
+.self-pic {
+	width: 17vw;
+	height: 17vw;
+	border-radius: 50%;
+	margin-left: 45%;
+	margin-top: 25%;
+}
+
+.skills,
+.project-list,
+.projects {
+	height: auto;
+	margin-top: 5%;
+	display: flex;
+}
+
+.skill-container,
+.proj-list {
+	padding: 15px;
+	width: 70%;
+	flex-wrap: wrap;
+	font-size: 1.3vw;
+}
+
+.skill-wording,
+.proj-text {
+	width: 40%;
+	padding: 7%;
+	padding-top: 2%;
+	font-size: 2.3vw;
+	color: #60db8f;
+	text-align: center;
+	border-top: 8px double #60db8f48;
+	border-radius: 140px;
+}
+
+.skill-image {
+	margin-right: 10%;
+	margin-left: auto;
+}
+
+.skill-image img,
+.proj-list img {
+	height: 96px;
+	padding: 1vh;
+}
+
+.proj-list img {
+	height: 200px;
+	width: 200px;
+	padding: 1vh;
+}
+
+.skill-image img:hover,
+.proj-list a img:hover {
+	transform: scale(1.2);
+	transition: transform 0.4s ease-out;
+}
+
+.proj-card:hover {
+}
+
+.proj-list a {
+	flex-wrap: wrap;
+}
+
+.proj-row {
+	display: flex;
+}
+
+.projects {
+	display: grid;
+}
+
+.projects a img {
+	height: 6vh;
+	width: 3vw;
+}
+
+.projects a {
+	width: 3vw;
+}
+
+.skills,
+.row-one,
+.mern-row,
+.row-three {
+	display: flex;
+	text-align: center;
+}
+
+.row-one,
+.mern-row,
+.row-three {
+	justify-content: space-around;
+	overflow: auto;
+}
+
+@media only screen and (max-width: 1050px) {
+	.skill-image img,
+	.proj-list img {
+		height: 80px;
+	}
+	.media-links img {
+		height: 40px;
+		width: 40px;
+	}
+}
+
+@media only screen and (max-width: 900px) {
+	.skill-image img,
+	.proj-list img {
+		height: 65px;
+	}
+	.media-links img {
+		height: 30px;
+		width: 30px;
+	}
+}
+
+@media only screen and (max-width: 640px) {
+	.skill-image img,
+	.proj-list img {
+		height: 40px;
+	}
+	.media-links img {
+		height: 20px;
+		width: 20px;
+	}
+}
+
+@media only screen and (max-width: 570px) {
+	.skill-image img,
+	.proj-list img {
+		height: 25px;
+	}
+	.container {
+		padding-bottom: 10%;
+	}
+}
