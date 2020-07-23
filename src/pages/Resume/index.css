@@ -8,3 +8,9 @@
 	height: auto;
 	padding-bottom: 5%;
 }
+
+embed {
+	margin-left: 10%;
+	height: 80vh;
+	width: 70vw;
+}

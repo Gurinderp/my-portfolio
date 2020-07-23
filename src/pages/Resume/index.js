@@ -1,10 +1,11 @@
 import React from "react";
 import "./index.css";
+import pdf from "../../assets/resume.pdf";
 
 function Resume() {
 	return (
 		<div className="container">
-			<div>Resume</div>
+			<embed src={pdf}></embed>
 		</div>
 	);
 }
