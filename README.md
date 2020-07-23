@@ -1,3 +1,10 @@
+<ul>
+<li><a href="https://github.com/Gurinderp/my-portfolio#purpose">Purpose</a></li>
+<li><a href="https://github.com/Gurinderp/my-portfolio#participants">Participants</a></li>
+<li><a href="https://github.com/Gurinderp/my-portfolio#challenges">Challanges</a></li>
+<li><a href="https://github.com/Gurinderp/my-portfolio#future-goals">Future Goals</a></li>
+</ul>
+
 <h1>Purpose</h1>
 <h3>The purpose of this portfolio is to showcase some of my skills and develop my presence in the development community. Creating the portfolio is also a way for me to implement my skills in a way I think would best describe me.</h3>
 <h1>Participants</h1>
