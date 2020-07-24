@@ -43,3 +43,8 @@ input {
 label {
 	font-size: 1.6vw;
 }
+
+iframe {
+	margin-left: 50%;
+	transform: translate(-50%);
+}
