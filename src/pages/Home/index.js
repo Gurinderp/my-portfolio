@@ -6,7 +6,7 @@ import mysql from "../../assets/mysql.png";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import projone from "../../assets/projone.png";
-import projtwo from "../../assets/projtwo.png";
+import projtwo from "../../assets/bgp2.png";
 import dayplanner from "../../assets/dayplanner.png";
 import fitness from "../../assets/ftnstrkr.png";
 import jquery from "../../assets/jquery.png";
