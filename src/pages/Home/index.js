@@ -7,7 +7,7 @@ import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import projone from "../../assets/projone.png";
 import projtwo from "../../assets/projtwo.png";
-import evoproj from "../../assets/evoproj.png";
+import dayplanner from "../../assets/dayplanner.png";
 import fitness from "../../assets/ftnstrkr.png";
 import jquery from "../../assets/jquery.png";
 
@@ -187,15 +187,15 @@ function Home() {
 					</div>
 					<div className="proj-row">
 						<div className="projects">
-							<img src={evoproj} alt="third project" />
-							<a href="#">
+							<img src={dayplanner} alt="third project" />
+							<a href="https://gurinderp.github.io/dayPlanner/">
 								<img
 									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
 									alt="deployed"
 								/>
 							</a>
 							<a
-								href="https://github.com/Gurinderp/Evolution-Project"
+								href="https://github.com/Gurinderp/dayPlanner"
 								target="_blank"
 								rel="noopener noreferrer"
 							>
@@ -207,7 +207,7 @@ function Home() {
 						</div>
 						<div className="projects">
 							<img src={fitness} alt="fourth project" />
-							<a href="#">
+							<a href="https://ftnesstracker.herokuapp.com/">
 								<img
 									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
 									alt="deployed"
