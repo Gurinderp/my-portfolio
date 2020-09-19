@@ -29,6 +29,7 @@ function Home() {
 							/>
 							<p>GitHub</p>
 						</a>
+
 						<a
 							href="https://www.linkedin.com/in/gurinderpreet-singh/"
 							target="_blank"
@@ -135,94 +136,110 @@ function Home() {
 				<div className="proj-list">
 					<div className="proj-row">
 						<div className="projects">
-							<img
-								src={projone}
-								alt="first project"
-								className="proj-card"
-							/>
-							<a
-								href="https://gurinderp.github.io/Bootcamp-group-project-1/"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
+							<div className="projects-card">
 								<img
-									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-									alt="deployed"
+									src={projone}
+									alt="first project"
+									className="proj-card"
 								/>
-							</a>
-							<a
-								href="https://github.com/Gurinderp/Bootcamp-group-project-1"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<img
-									src="https://img.icons8.com/clouds/50/000000/github.png"
-									alt="github"
-								/>
-							</a>
+								<div className="deployed-links">
+									<a
+										href="https://gurinderp.github.io/Bootcamp-group-project-1/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+											alt="deployed"
+										/>
+									</a>
+									<a
+										href="https://github.com/Gurinderp/Bootcamp-group-project-1"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											src="https://img.icons8.com/clouds/50/000000/github.png"
+											alt="github"
+										/>
+									</a>
+								</div>
+							</div>
 						</div>
 						<div className="projects">
-							<img src={projtwo} alt="second project" />
-							<a
-								href="https://gurinderp.github.io/bootcamp-group-project-2/"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<img
-									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-									alt="deployed"
-								/>
-							</a>
-							<a
-								href="https://github.com/Gurinderp/bootcamp-group-project-2"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<img
-									src="https://img.icons8.com/clouds/50/000000/github.png"
-									alt="github"
-								/>
-							</a>
+							<div className="projects-card">
+								<img src={projtwo} alt="second project" />
+								<div className="deployed-links">
+									<a
+										href="https://gurinderp.github.io/bootcamp-group-project-2/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+											alt="deployed"
+										/>
+									</a>
+									<a
+										href="https://github.com/Gurinderp/bootcamp-group-project-2"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											src="https://img.icons8.com/clouds/50/000000/github.png"
+											alt="github"
+										/>
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 					<div className="proj-row">
 						<div className="projects">
-							<img src={dayplanner} alt="third project" />
-							<a href="https://gurinderp.github.io/dayPlanner/">
-								<img
-									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-									alt="deployed"
-								/>
-							</a>
-							<a
-								href="https://github.com/Gurinderp/dayPlanner"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<img
-									src="https://img.icons8.com/clouds/50/000000/github.png"
-									alt="github"
-								/>
-							</a>
+							<div className="projects-card">
+								<img src={dayplanner} alt="third project" />
+								<div className="deployed-links">
+									<a href="https://gurinderp.github.io/dayPlanner/">
+										<img
+											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+											alt="deployed"
+										/>
+									</a>
+									<a
+										href="https://github.com/Gurinderp/dayPlanner"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											src="https://img.icons8.com/clouds/50/000000/github.png"
+											alt="github"
+										/>
+									</a>
+								</div>
+							</div>
 						</div>
 						<div className="projects">
-							<img src={fitness} alt="fourth project" />
-							<a href="https://ftnesstracker.herokuapp.com/">
-								<img
-									src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-									alt="deployed"
-								/>
-							</a>
-							<a
-								href="https://github.com/Gurinderp/fitness-tracker"
-								target="_blank"
-								rel="noopener noreferrer"
-							>
-								<img
-									src="https://img.icons8.com/clouds/50/000000/github.png"
-									alt="github"
-								/>
-							</a>
+							<div className="projects-card">
+								<img src={fitness} alt="fourth project" />
+								<div className="deployed-links">
+									<a href="https://ftnesstracker.herokuapp.com/">
+										<img
+											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+											alt="deployed"
+										/>
+									</a>
+									<a
+										href="https://github.com/Gurinderp/fitness-tracker"
+										target="_blank"
+										rel="noopener noreferrer"
+									>
+										<img
+											src="https://img.icons8.com/clouds/50/000000/github.png"
+											alt="github"
+										/>
+									</a>
+								</div>
+							</div>
 						</div>
 					</div>
 				</div>

@@ -330,6 +330,11 @@ input[type="submit"] {
 	*overflow: visible; /* 4 */
 }
 
+p {
+
+
+}
+
 /**
  * Re-set default cursor for disabled elements.
  */

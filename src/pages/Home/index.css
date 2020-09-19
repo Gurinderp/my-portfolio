@@ -21,6 +21,10 @@ body {
 	padding-bottom: 5%;
 }
 
+.deployed-links {
+	height: 10%;
+}
+
 .heading {
 	display: flex;
 }
@@ -123,30 +127,29 @@ body {
 }
 
 .proj-list img {
-	height: 200px;
-	width: 200px;
 	padding: 1vh;
 }
 
 .skill-image img:hover,
 .proj-list a img:hover {
-	transform: scale(1.2);
-	transition: transform 0.4s ease-out;
-}
-
-.proj-card:hover {
+	transform: scale(1.15);
+	transition: transform 0.3s ease-out;
 }
 
 .proj-list a {
-	flex-wrap: wrap;
+	padding-left: 18%;
 }
 
 .proj-row {
 	display: flex;
 }
 
-.projects {
-	display: grid;
+.projects img {
+	height: 60vh;
+	width: 15vw;
+	padding: 0;
+	width: 100%;
+	height: 30vh;
 }
 
 .projects a img {
@@ -154,8 +157,13 @@ body {
 	width: 3vw;
 }
 
-.projects a {
-	width: 3vw;
+.projects-card {
+	display: grid;
+	border: 10px double #60db8f48;
+	border-radius: 10px;
+	height: 40vh;
+	width: 16vw;
+	margin: 1vw;
 }
 
 .skills,
