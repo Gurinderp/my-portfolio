@@ -5,7 +5,7 @@ import express from "../../assets/express.jpg";
 import mysql from "../../assets/mysql.png";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
-import projone from "../../assets/projone.png";
+import projone from "../../assets/idprojsample.png";
 import projtwo from "../../assets/bgp2.png";
 import dayplanner from "../../assets/dayplanner.png";
 import fitness from "../../assets/ftnstrkr.png";
@@ -144,7 +144,7 @@ function Home() {
 								/>
 								<div className="deployed-links">
 									<a
-										href="https://gurinderp.github.io/Bootcamp-group-project-1/"
+										href="https://gbrochure-site.herokuapp.com/"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
@@ -154,7 +154,7 @@ function Home() {
 										/>
 									</a>
 									<a
-										href="https://github.com/Gurinderp/Bootcamp-group-project-1"
+										href="https://github.com/Gurinderp/brochure-site"
 										target="_blank"
 										rel="noopener noreferrer"
 									>
