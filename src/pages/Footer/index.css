@@ -1,9 +1,23 @@
-.footer {
-	width: auto;
-	height: 6vh;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	position: absolute;
-	text-align: center;
+.footer-container {
+	margin-left: 50%;
+	transform: translate(-50%);
+	background-color: rgba(0, 0, 0, 0.93);
+	width: 80%;
+	min-height: 10vh;
+	height: auto;
+	display: flex;
+	font-size: 1.7vh;
+	padding-bottom: 1.5%;
+}
+
+.footer-title {
+	font-weight: bold;
+}
+
+.bot-sect {
+	width: 30%;
+	height: auto;
+	padding: 2%;
+	line-height: 1.2;
+	margin-left: 3%;
 }

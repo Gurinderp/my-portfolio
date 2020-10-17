@@ -59,9 +59,8 @@ body {
 
 .media-links a,
 .proj-list a {
-	color: white;
 	text-decoration: none;
-	color: rgb(249, 255, 161);
+	color: rgb(0, 255, 0);
 }
 
 .media-links {

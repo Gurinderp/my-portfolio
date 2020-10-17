@@ -3,7 +3,7 @@ nav {
 	height: 70px;
 	display: flex;
 	margin-left: auto;
-	color: #60db8f;
+	color: rgb(118, 204, 118);
 	position: sticky;
 	overflow: auto;
 	text-align: center;
@@ -30,7 +30,7 @@ nav {
 }
 
 .top-links li a {
-	color: rgb(249, 255, 161);
+	color: rgb(0, 255, 0);
 	text-decoration: none;
 }
 
