@@ -5,7 +5,6 @@ import "./index.css";
 function Nav() {
 	return (
 		<nav>
-			<div className="logo">Gurinderpreet Singh</div>
 			<ul className="top-links">
 				<li>
 					<Link to="/">Home</Link>
@@ -15,6 +14,9 @@ function Nav() {
 				</li>
 				<li>
 					<Link to="/resume">Resume</Link>
+				</li>
+				<li>
+					<Link to="/about">About Me</Link>
 				</li>
 			</ul>
 		</nav>

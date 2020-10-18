@@ -11,18 +11,19 @@ body {
 }
 
 .container {
-	margin-right: 10%;
-	margin-left: 10%;
-	background-color: rgba(63, 63, 63, 0.884);
-	border-radius: 10px;
-	margin-top: 1%;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: rgba(0, 0, 0, 0.93);
 	width: 80%;
 	height: auto;
 	padding-bottom: 5%;
 }
 
 .deployed-links {
-	height: 10%;
+	/*
+	height: 6.3vh;
+	width: 16vw;
+	*/
 }
 
 .heading {
@@ -87,15 +88,16 @@ body {
 }
 
 .skills,
-.project-list,
 .projects {
-	height: auto;
-	margin-top: 5%;
-	display: flex;
 }
 
-.skill-container,
-.proj-list {
+.skills,
+.project-list {
+	height: auto;
+	margin-top: 5%;
+}
+
+.skill-container {
 	padding: 15px;
 	width: 70%;
 	flex-wrap: wrap;
@@ -104,14 +106,17 @@ body {
 
 .skill-wording,
 .proj-text {
-	width: 40%;
-	padding: 7%;
-	padding-top: 2%;
-	font-size: 2.3vw;
-	color: #60db8f;
-	text-align: center;
-	border-top: 8px double #60db8f48;
 	border-radius: 140px;
+	border-top: 8px double #41dd7d85;
+	color: #60db8f;
+	font-size: 2.5vw;
+	padding: 0;
+	padding-top: 4vh;
+	padding-bottom: 4vh;
+	text-align: center;
+	width: 50%;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .skill-image {
@@ -119,13 +124,8 @@ body {
 	margin-left: auto;
 }
 
-.skill-image img,
-.proj-list img {
-	height: 96px;
-	padding: 1vh;
-}
-
-.proj-list img {
+.skill-image img {
+	height: 15vh;
 	padding: 1vh;
 }
 
@@ -136,36 +136,37 @@ body {
 }
 
 .proj-list a {
-	padding-left: 18%;
+	margin-left: 1.2vw;
+}
+
+.proj-list {
+	display: flex;
+	justify-content: center;
 }
 
 .proj-row {
-	display: flex;
 }
 
 .projects img {
-	height: 60vh;
-	width: 15vw;
-	padding: 0;
-	width: 100%;
+	width: 16vw;
 	height: 30vh;
+	padding: 1vh;
 }
 
 .projects a img {
-	height: 6vh;
-	width: 3vw;
+	height: 5vh;
+	width: auto;
 }
 
 .projects-card {
-	display: grid;
-	border: 10px double #60db8f48;
+	display: flex;
+	border: 10px double #41dd7d85;
 	border-radius: 10px;
-	height: 40vh;
-	width: 16vw;
 	margin: 1vw;
+	width: 35vw;
+	background-color: #24854985;
 }
 
-.skills,
 .row-one,
 .mern-row,
 .row-three {
@@ -188,7 +189,7 @@ body {
 
 	.projects-card {
 		display: grid;
-		border: 10px double #60db8f48;
+		border: 10px double #41dd7d85;
 		border-radius: 10px;
 		height: 40vh;
 		width: 16vw;
@@ -221,7 +222,7 @@ body {
 
 	.projects-card {
 		display: grid;
-		border: 10px double #60db8f48;
+		border: 10px double #41dd7d85;
 		border-radius: 10px;
 		height: 40vh;
 		width: 16vw;
@@ -249,7 +250,7 @@ body {
 
 	.projects-card {
 		display: grid;
-		border: 10px double #60db8f48;
+		border: 10px double #41dd7d85;
 		border-radius: 10px;
 		height: 40vh;
 		width: 16vw;
@@ -276,7 +277,7 @@ body {
 
 	.projects-card {
 		display: grid;
-		border: 10px double #60db8f48;
+		border: 10px double #41dd7d85;
 		border-radius: 10px;
 		height: 40vh;
 		width: 16vw;

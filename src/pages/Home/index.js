@@ -16,7 +16,9 @@ function Home() {
 		<div className="container">
 			<div className="heading">
 				<div>
-					<img className="self-pic" src={self} alt="self-pic" />
+					<p>Gurinderpreet<br />Singh</p>
+				</div>
+				<div>
 					<div className="media-links">
 						<a
 							href="https://github.com/Gurinderp"
@@ -42,24 +44,168 @@ function Home() {
 							<p>LinkedIn</p>
 						</a>
 					</div>
-				</div>
-				<h3 className="heading-text">
-					<p>Hello World!</p>
-					<p>
-						My Name is Gurinderpreet Singh, and I am a Full Stack
-						Developer with a love for coding!
-					</p>
-				</h3>
+				</div>		
 			</div>
-			<div className="aboutme-section">
-				<p className="aboutme-text">
-					I began learning how to code with HTML and CSS in early
-					2018. I later decided to take it one step further and
-					enrolled in a coding bootcamp at UC Davis Continuing and
-					Professional Education near the end of 2019. From there I
-					learned skills and technologies such as JavaScript, JQuery,
-					Node.JS and many more!
-				</p>
+			<div className="project-list">
+				<div className="proj-text">Projects</div>
+				<div className="proj-list">
+					<div className="proj-row">
+						<div className="projects">
+							<div className="projects-card">
+								<div className="card-left">
+								<img
+									src={projone}
+									alt="first project"
+									className="proj-card"
+								/>
+								<div className="deployed-links">
+									<a
+										href="https://gbrochure-site.herokuapp.com/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>Deployed
+										<img
+											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+											alt="deployed"
+										/>
+									</a>
+									<a
+										href="https://github.com/Gurinderp/brochure-site"
+										target="_blank"
+										rel="noopener noreferrer"
+									>GitHub
+										<img
+											src="https://img.icons8.com/clouds/50/000000/github.png"
+											alt="github"
+										/>
+									</a>
+								</div>
+								</div>
+								<div className="card-right">
+									<div className="tech-descrip">
+										<u>Built Using</u>
+										<p>HTML, CSS, JavaScript, and React</p>
+									</div>
+									<div className="proj-descrip">
+										<p>This project was designed as a travel brochure website. The project uses India as a foundation, and its design was inspired by the Flag of India.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="projects">
+							<div className="projects-card">
+								<div className="card-left">
+								<img src={projtwo} alt="second project" className="proj-card"/>
+								<div className="deployed-links">
+									<a
+										href="https://gurinderp.github.io/bootcamp-group-project-2/"
+										target="_blank"
+										rel="noopener noreferrer"
+									>Deployed
+										<img
+											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+											alt="deployed"
+										/>
+									</a>
+									<a
+										href="https://github.com/Gurinderp/bootcamp-group-project-2"
+										target="_blank"
+										rel="noopener noreferrer"
+									>GitHub
+										<img
+											src="https://img.icons8.com/clouds/50/000000/github.png"
+											alt="github"
+										/>
+									</a>
+								</div>
+								</div>
+								<div className="card-right">
+									<div className="tech-descrip">
+										<u>Built Using</u>
+										<p>HTML, CSS, JavaScript, and React</p>
+									</div>
+									<div className="proj-descrip">
+										<p>This project was designed as a travel brochure website. The project uses India as a foundation, and its design was inspired by the Flag of India.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div className="proj-row">
+						<div className="projects">
+							<div className="projects-card">
+								<div className="card-left">
+								<img src={dayplanner} alt="third project" className="proj-card"/>
+								<div className="deployed-links">
+									<a href="https://gurinderp.github.io/dayPlanner/"
+										target="_blank"
+										rel="noopener noreferrer">Deployed
+										<img
+											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+											alt="deployed"
+											/>
+									</a>
+									<a
+										href="https://github.com/Gurinderp/dayPlanner"
+										target="_blank"
+										rel="noopener noreferrer"
+										>GitHub
+										<img
+											src="https://img.icons8.com/clouds/50/000000/github.png"
+											alt="github"
+											/>
+									</a>
+								</div>
+								</div>
+								<div className="card-right">
+									<div className="tech-descrip">
+										<u>Built Using</u>
+										<p>HTML, CSS, JavaScript, and React</p>
+									</div>
+									<div className="proj-descrip">
+										<p>This project was designed as a travel brochure website. The project uses India as a foundation, and its design was inspired by the Flag of India.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+						<div className="projects">
+							<div className="projects-card">
+								<div className="card-left">
+									<img src={fitness} alt="fourth project" className="proj-card"/>
+									<div className="deployed-links">
+									<a href="https://ftnesstracker.herokuapp.com/"
+										target="_blank"
+										rel="noopener noreferrer">Deployed
+										<img
+											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+											alt="deployed"
+											/>
+									</a>
+									<a
+										href="https://github.com/Gurinderp/fitness-tracker"
+										target="_blank"
+										rel="noopener noreferrer"
+										>GitHub
+										<img
+											src="https://img.icons8.com/clouds/50/000000/github.png"
+											alt="github"
+											/>
+									</a>
+									</div>
+								</div>
+								<div className="card-right">
+									<div className="tech-descrip">
+										<u>Built Using</u>
+										<p>HTML, CSS, JavaScript, and React</p>
+									</div>
+									<div className="proj-descrip">
+										<p>This project was designed as a travel brochure website. The project uses India as a foundation, and its design was inspired by the Flag of India.</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 
 			<div className="skills">
@@ -131,119 +277,9 @@ function Home() {
 					</div>
 				</div>
 			</div>
-			<div className="project-list">
-				<div className="proj-text">Projects</div>
-				<div className="proj-list">
-					<div className="proj-row">
-						<div className="projects">
-							<div className="projects-card">
-								<img
-									src={projone}
-									alt="first project"
-									className="proj-card"
-								/>
-								<div className="deployed-links">
-									<a
-										href="https://gbrochure-site.herokuapp.com/"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										<img
-											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-											alt="deployed"
-										/>
-									</a>
-									<a
-										href="https://github.com/Gurinderp/brochure-site"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										<img
-											src="https://img.icons8.com/clouds/50/000000/github.png"
-											alt="github"
-										/>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div className="projects">
-							<div className="projects-card">
-								<img src={projtwo} alt="second project" />
-								<div className="deployed-links">
-									<a
-										href="https://gurinderp.github.io/bootcamp-group-project-2/"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										<img
-											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-											alt="deployed"
-										/>
-									</a>
-									<a
-										href="https://github.com/Gurinderp/bootcamp-group-project-2"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										<img
-											src="https://img.icons8.com/clouds/50/000000/github.png"
-											alt="github"
-										/>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-					<div className="proj-row">
-						<div className="projects">
-							<div className="projects-card">
-								<img src={dayplanner} alt="third project" />
-								<div className="deployed-links">
-									<a href="https://gurinderp.github.io/dayPlanner/">
-										<img
-											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-											alt="deployed"
-										/>
-									</a>
-									<a
-										href="https://github.com/Gurinderp/dayPlanner"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										<img
-											src="https://img.icons8.com/clouds/50/000000/github.png"
-											alt="github"
-										/>
-									</a>
-								</div>
-							</div>
-						</div>
-						<div className="projects">
-							<div className="projects-card">
-								<img src={fitness} alt="fourth project" />
-								<div className="deployed-links">
-									<a href="https://ftnesstracker.herokuapp.com/">
-										<img
-											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-											alt="deployed"
-										/>
-									</a>
-									<a
-										href="https://github.com/Gurinderp/fitness-tracker"
-										target="_blank"
-										rel="noopener noreferrer"
-									>
-										<img
-											src="https://img.icons8.com/clouds/50/000000/github.png"
-											alt="github"
-										/>
-									</a>
-								</div>
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
+
+
+			
 		</div>
 	);
 }
