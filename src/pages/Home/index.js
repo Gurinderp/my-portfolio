@@ -15,36 +15,40 @@ function Home() {
 	return (
 		<div className="container">
 			<div className="heading">
-				<div>
-					<p>Gurinderpreet<br />Singh</p>
-				</div>
-				<div>
-					<div className="media-links">
-						<a
-							href="https://github.com/Gurinderp"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img
-								src="https://img.icons8.com/clouds/50/000000/github.png"
-								alt="github"
-							/>
-							<p>GitHub</p>
-						</a>
-
-						<a
-							href="https://www.linkedin.com/in/gurinderpreet-singh/"
-							target="_blank"
-							rel="noopener noreferrer"
-						>
-							<img
-								src="https://img.icons8.com/clouds/50/000000/linkedin.png"
-								alt="linkedin"
-							/>
-							<p>LinkedIn</p>
-						</a>
+				<div className="heading-left">
+					<div>
+						<p>Gurinderpreet<br />Singh</p>
 					</div>
-				</div>		
+						<div className="media-links">
+							<a
+								href="https://github.com/Gurinderp"
+								target="_blank"
+								rel="noopener noreferrer"
+								>
+								<img
+									src="https://img.icons8.com/clouds/50/000000/github.png"
+									alt="github"
+								/>
+								<p>GitHub</p>
+							</a>
+
+							<a
+								href="https://www.linkedin.com/in/gurinderpreet-singh/"
+								target="_blank"
+								rel="noopener noreferrer"
+								>
+								<img
+									src="https://img.icons8.com/clouds/50/000000/linkedin.png"
+									alt="linkedin"
+								/>
+								<p>LinkedIn</p>
+							</a>
+					</div>
+				</div>	
+				<div className="heading-right">
+					<p>Full Stack Developer</p>
+					<p>Hello world!</p>
+				</div>	
 			</div>
 			<div className="project-list">
 				<div className="proj-text">Projects</div>

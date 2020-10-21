@@ -1,5 +1,10 @@
 nav {
-	background-color: rgba(0, 0, 0, 0.93);
+	background-image: linear-gradient(
+		to top,
+		rgba(0, 20, 0, 0.95),
+		rgba(0, 32, 0, 0.836),
+		rgba(0, 40, 0, 0.938)
+	);
 	color: rgb(118, 204, 118);
 	display: flex;
 	height: 70px;
@@ -13,10 +18,11 @@ nav {
 	width: 80%;
 }
 
-/*delete this*/
+/*delete this
 nav {
 	margin-bottom: 2vh;
 }
+*/
 
 .top-links {
 	display: flex;
