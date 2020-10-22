@@ -1,6 +1,5 @@
 import React from "react";
 import "./index.css";
-import self from "../../assets/self.png";
 import express from "../../assets/express.jpg";
 import mysql from "../../assets/mysql.png";
 import html from "../../assets/html.png";
