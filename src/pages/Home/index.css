@@ -1,5 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Noticia+Text&display=swap");
 
+html {
+	scroll-behavior: smooth;
+}
+
 body {
 	color: white;
 	background-image: url(../../assets/bg1-2.jpg);
@@ -36,7 +40,7 @@ body {
 		rgba(0, 5, 0, 0.93),
 		rgba(0, 80, 0, 0.24)
 	);
-	min-height: 84vh;
+	min-height: 74vh;
 	justify-content: center;
 }
 
@@ -53,7 +57,7 @@ body {
 	letter-spacing: 0.3vw;
 	line-height: 1.4;
 	padding: 5vh;
-	margin-top: 10vh;
+	margin-top: 7vh;
 }
 
 .heading-right {
@@ -82,10 +86,41 @@ body {
 }
 */
 
+.homepage-links {
+	display: flex;
+	justify-content: space-around;
+	width: 25%;
+	padding-left: 0;
+	font-size: 1.8vw;
+	justify-content: space-around;
+	list-style-type: none;
+	margin: 15px;
+	margin-left: auto;
+	margin-right: auto;
+	text-decoration: none;
+	width: 40%;
+}
+
+.homepage-links button {
+	border: none;
+	background: none;
+	font-family: "Noticia Text", serif;
+}
+
+.homepage-links button a {
+	color: rgb(81, 255, 0);
+	text-decoration: none;
+}
+
 .img-fluid {
 	width: 100%;
 	z-index: -1;
 	position: fixed;
+}
+
+.media-links {
+	letter-spacing: 0.1vw;
+	font-family: "Noticia Text", serif;
 }
 
 .media-links a,
@@ -103,9 +138,18 @@ body {
 	justify-content: space-evenly;
 }
 
+.media-links img {
+	margin-left: 10%;
+}
+
 .media-links img:hover {
 	transform: scale(1.2);
 	transition: transform 0.4s ease-out;
+}
+
+.row {
+	display: flex;
+	margin-left: 15%;
 }
 
 .self-pic {
@@ -197,20 +241,6 @@ body {
 	margin: 1vw;
 	width: 35vw;
 	background-color: #24854985;
-}
-
-.row-one,
-.mern-row,
-.row-three {
-	display: flex;
-	text-align: center;
-}
-
-.row-one,
-.mern-row,
-.row-three {
-	justify-content: space-around;
-	overflow: auto;
 }
 
 @media only screen and (max-width: 1050px) {

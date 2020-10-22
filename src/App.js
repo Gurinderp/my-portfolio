@@ -5,6 +5,7 @@ import Home from "./pages/Home";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
 import Footer from "./pages/Footer";
+import About from "./pages/About";
 import "./App.css";
 
 function App() {
@@ -20,6 +21,9 @@ function App() {
 				</Route>
 				<Route path="/resume">
 					<Resume />
+				</Route>
+				<Route path="/about">
+					<About />
 				</Route>
 				<Footer />
 			</Router>

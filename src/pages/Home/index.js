@@ -50,7 +50,15 @@ function Home() {
 					<p className="heading-hello">Hello world!</p>
 				</div>	
 			</div>
-			<div className="project-list">
+			<div className="homepage-links">
+				<button>
+						<a href="#projectList">PROJECTS</a>
+				</button>
+				<button>
+						<a href="#skills">SKILLS</a>
+				</button>
+			</div>
+			<div className="project-list" id="projectList">
 				<div className="proj-text">Projects</div>
 				<div className="proj-list">
 					<div className="proj-row">
@@ -212,12 +220,12 @@ function Home() {
 				</div>
 			</div>
 
-			<div className="skills">
+			<div className="skills" id="skills">
 				<div className="skill-wording">
 					<p>Technical Knowledge</p>
 				</div>
 				<div className="skill-image">
-					<div className="row-one">
+					<div className="row">
 						<div className="skill-container">
 							<img src={html} alt="HTML" />
 							<p>HTML</p>
@@ -231,16 +239,27 @@ function Home() {
 							<img
 								src="https://img.icons8.com/color/96/000000/javascript.png"
 								alt="JavaScript"
-							/>
+								/>
 							<p>JavaScript</p>
 						</div>
+						<div className="skill-container">
+							<img
+								src="https://img.icons8.com/nolan/96/react-native.png"
+								alt="React"
+								/>
+							<p>React</p>
+						</div>
 					</div>
-					<div className="mern-row">
+					<div className="row">
+						<div className="skill-container">
+							<img src={jquery} alt="JQuery" />
+							<p>JQuery</p>
+						</div>
 						<div className="skill-container">
 							<img
 								src="https://img.icons8.com/color/96/000000/mongodb.png"
 								alt="MongoDB"
-							/>
+								/>
 							<p>MongoDB</p>
 						</div>
 						<div className="skill-container">
@@ -249,41 +268,20 @@ function Home() {
 						</div>
 						<div className="skill-container">
 							<img
-								src="https://img.icons8.com/nolan/96/react-native.png"
-								alt="React"
-							/>
-							<p>React</p>
-						</div>
-						<div className="skill-container">
-							<img
 								src="https://img.icons8.com/color/96/000000/nodejs.png"
 								alt="Node.JS"
-							/>
+								/>
 							<p>NodeJS</p>
 						</div>
 					</div>
-					<div className="row-three">
+					<div className="row">
 						<div className="skill-container">
 							<img src={mysql} alt="MySQL" />
 							<p>MySQL</p>
 						</div>
-						<div className="skill-container">
-							<img
-								src="https://img.icons8.com/color/96/000000/angularjs.png"
-								alt="Angular"
-							/>
-							<p>Angular</p>
-						</div>
-						<div className="skill-container">
-							<img src={jquery} alt="JQuery" />
-							<p>JQuery</p>
-						</div>
 					</div>
 				</div>
 			</div>
-
-
-			
 		</div>
 	);
 }

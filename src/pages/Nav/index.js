@@ -6,15 +6,6 @@ function Nav() {
 	return (
 		<nav>
 			<ul className="top-links">
-				<div className="homepage-links">
-
-				<li>
-					<Link to="/">PROJECTS</Link>
-				</li>
-				<li>
-					<Link to="/">SKILLS</Link>
-				</li>
-				</div>
 				<li>
 					<Link to="/">Home</Link>
 				</li>
