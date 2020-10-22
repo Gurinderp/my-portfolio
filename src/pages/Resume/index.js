@@ -4,7 +4,7 @@ import pdf from "../../assets/resume.pdf";
 
 function Resume() {
 	return (
-		<div className="container">
+		<div className="container resume-container">
 			<embed src={pdf}></embed>
 		</div>
 	);

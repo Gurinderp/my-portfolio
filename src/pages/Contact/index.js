@@ -3,7 +3,7 @@ import "./index.css";
 
 function Contact() {
 	return (
-		<div className="container">
+		<div className="container contact-container">
 			<div className="contact-info">
 				<div>Cell Phone: (916) 767-6512</div>
 				<div>Email Address: sgurinderpreet@gmail.com</div>

@@ -5,6 +5,15 @@
 	line-height: 1.5;
 }
 
+.contact-container {
+	background-image: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.93),
+		rgba(0, 5, 0, 0.93),
+		rgba(0, 80, 0, 0.24)
+	);
+}
+
 .submission {
 	margin-left: 30%;
 	font-size: 1.2vw;

@@ -3,3 +3,12 @@ embed {
 	height: 80vh;
 	width: 70vw;
 }
+
+.resume-container {
+	background-image: linear-gradient(
+		to top,
+		rgba(0, 0, 0, 0.93),
+		rgba(0, 5, 0, 0.93),
+		rgba(0, 80, 0, 0.24)
+	);
+}
