@@ -171,10 +171,11 @@ body {
 }
 
 .skill-container {
-	padding: 15px;
-	width: 70%;
-	flex-wrap: wrap;
 	font-size: 1.3vw;
+	flex-wrap: wrap;
+	padding: 15px;
+	text-align: center;
+	width: 70%;
 }
 
 .skill-wording,
@@ -208,6 +209,10 @@ body {
 .proj-list a img:hover {
 	transform: scale(1.15);
 	transition: transform 0.3s ease-out;
+}
+
+.proj-descrip {
+	margin-top: 3vh;
 }
 
 .proj-list a {
@@ -248,7 +253,7 @@ body {
 	text-align: center;
 	font-size: 1.5vw;
 	margin-top: 2vh;
-	margin-bottom: 5vh;
+	margin-bottom: 3vh;
 }
 
 @media only screen and (max-width: 1050px) {

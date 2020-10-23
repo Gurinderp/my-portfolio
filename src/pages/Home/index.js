@@ -9,6 +9,7 @@ import projtwo from "../../assets/placeholderimage.png";
 import dayplanner from "../../assets/dayplanner.png";
 import fitness from "../../assets/ftnstrkr.png";
 import jquery from "../../assets/jquery.png";
+import heroku from "../../assets/heroku-logo.png";
 
 function Home() {
 	return (
@@ -285,6 +286,10 @@ function Home() {
 						<div className="skill-container">
 							<img src={mysql} alt="MySQL" />
 							<p>MySQL</p>
+						</div>
+						<div className="skill-container">
+							<img src={heroku} alt="Heroku" />
+							<p>Heroku</p>
 						</div>
 					</div>
 				</div>
