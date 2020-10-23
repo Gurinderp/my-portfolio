@@ -5,7 +5,7 @@ import mysql from "../../assets/mysql.png";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import projone from "../../assets/idprojsample.png";
-import projtwo from "../../assets/idprojsample.png";
+import projtwo from "../../assets/placeholderimage.png";
 import dayplanner from "../../assets/dayplanner.png";
 import fitness from "../../assets/ftnstrkr.png";
 import jquery from "../../assets/jquery.png";
@@ -94,6 +94,7 @@ function Home() {
 								</div>
 								<div className="card-right">
 									<div className="tech-descrip">
+										<p className="project-title">Brochure Example Site</p>
 										<u>Built Using</u>
 										<p>HTML, CSS, JavaScript, and React</p>
 									</div>
@@ -109,7 +110,7 @@ function Home() {
 								<img src={projtwo} alt="second project" className="proj-card"/>
 								<div className="deployed-links">
 									<a
-										href="https://gurinderp.github.io/bootcamp-group-project-2/"
+										href="https://butteronbread.herokuapp.com/"
 										target="_blank"
 										rel="noopener noreferrer"
 									>Deployed
@@ -119,7 +120,7 @@ function Home() {
 										/>
 									</a>
 									<a
-										href="https://github.com/Gurinderp/bootcamp-group-project-2"
+										href="https://github.com/Gurinderp/butteronbread"
 										target="_blank"
 										rel="noopener noreferrer"
 									>GitHub
@@ -132,11 +133,12 @@ function Home() {
 								</div>
 								<div className="card-right">
 									<div className="tech-descrip">
+										<p className="project-title">Butter On Bread</p>
 										<u>Built Using</u>
-										<p>HTML, CSS, JavaScript, and React</p>
+										<p>HTML, CSS, JavaScript, and React.</p>
 									</div>
 									<div className="proj-descrip">
-										<p>This project was designed as a travel brochure website. The project uses India as a foundation, and its design was inspired by the Flag of India.</p>
+										<p>Designed as a sample product site, this project focuses on "butter on bread".</p>
 									</div>
 								</div>
 							</div>
@@ -170,11 +172,14 @@ function Home() {
 								</div>
 								<div className="card-right">
 									<div className="tech-descrip">
+										<p className="project-title">Day Planner</p>
 										<u>Built Using</u>
-										<p>HTML, CSS, JavaScript, and React</p>
+										<p>HTML, CSS, JavaScript, and Moment JS</p>
 									</div>
 									<div className="proj-descrip">
-										<p>This project was designed as a travel brochure website. The project uses India as a foundation, and its design was inspired by the Flag of India.</p>
+										<p>A simple day planner used to keep track of tasks. 
+											The project uses local time to determine which tasks should be complete, 
+											should be completed soon, and which can be done later.</p>
 									</div>
 								</div>
 							</div>
@@ -206,11 +211,14 @@ function Home() {
 								</div>
 								<div className="card-right">
 									<div className="tech-descrip">
+										<p className="project-title">Fitness Tracker</p>
 										<u>Built Using</u>
-										<p>HTML, CSS, JavaScript, and React</p>
+										<p>HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB</p>
 									</div>
 									<div className="proj-descrip">
-										<p>This project was designed as a travel brochure website. The project uses India as a foundation, and its design was inspired by the Flag of India.</p>
+										<p>A Full Stack project which utilizes the MERN stack. This application helps you keep track of your exercise 
+											activity by allowing you to log your progress. It will keep the progress saved to form a fitness log.
+										</p>
 									</div>
 								</div>
 							</div>

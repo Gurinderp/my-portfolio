@@ -235,12 +235,20 @@ body {
 
 .projects-card {
 	display: flex;
+	background-color: #24854985;
 	border: 10px double #41dd7d85;
 	border-radius: 10px;
 	font-family: "Noticia Text", serif;
+	line-height: 1.3vw;
 	margin: 1vw;
 	width: 35vw;
-	background-color: #24854985;
+}
+
+.project-title {
+	text-align: center;
+	font-size: 1.5vw;
+	margin-top: 2vh;
+	margin-bottom: 5vh;
 }
 
 @media only screen and (max-width: 1050px) {
