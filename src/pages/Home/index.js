@@ -5,7 +5,7 @@ import mysql from "../../assets/mysql.png";
 import html from "../../assets/html.png";
 import css from "../../assets/css.png";
 import projone from "../../assets/idprojsample.png";
-import projtwo from "../../assets/placeholderimage.png";
+import projtwo from "../../assets/buonbrpic.png";
 import dayplanner from "../../assets/dayplanner.png";
 import fitness from "../../assets/ftnstrkr.png";
 import jquery from "../../assets/jquery.png";
@@ -17,14 +17,18 @@ function Home() {
 			<div className="heading">
 				<div className="heading-left">
 					<div className="heading-name">
-						<p>Gurinderpreet<br />Singh</p>
+						<p>
+							Gurinderpreet
+							<br />
+							Singh
+						</p>
 					</div>
 					<div className="media-links">
 						<a
 							href="https://github.com/Gurinderp"
 							target="_blank"
 							rel="noopener noreferrer"
-							>
+						>
 							<img
 								src="https://img.icons8.com/clouds/50/000000/github.png"
 								alt="github"
@@ -36,7 +40,7 @@ function Home() {
 							href="https://www.linkedin.com/in/gurinderpreet-singh/"
 							target="_blank"
 							rel="noopener noreferrer"
-							>
+						>
 							<img
 								src="https://img.icons8.com/clouds/50/000000/linkedin.png"
 								alt="linkedin"
@@ -44,18 +48,20 @@ function Home() {
 							<p>LinkedIn</p>
 						</a>
 					</div>
-				</div>	
+				</div>
 				<div className="heading-right">
-					<p className="heading-title">Full Stack <br /> Developer</p>
+					<p className="heading-title">
+						Full Stack <br /> Developer
+					</p>
 					<p className="heading-hello">Hello world!</p>
-				</div>	
+				</div>
 			</div>
 			<div className="homepage-links">
 				<button>
-						<a href="#projectList">PROJECTS</a>
+					<a href="#projectList">PROJECTS</a>
 				</button>
 				<button>
-						<a href="#skills">SKILLS</a>
+					<a href="#skills">SKILLS</a>
 				</button>
 			</div>
 			<div className="project-list" id="projectList">
@@ -65,42 +71,52 @@ function Home() {
 						<div className="projects">
 							<div className="projects-card">
 								<div className="card-left">
-								<img
-									src={projone}
-									alt="first project"
-									className="proj-card"
-								/>
-								<div className="deployed-links">
-									<a
-										href="https://gbrochure-site.herokuapp.com/"
-										target="_blank"
-										rel="noopener noreferrer"
-									>Deployed
-										<img
-											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-											alt="deployed"
-										/>
-									</a>
-									<a
-										href="https://github.com/Gurinderp/brochure-site"
-										target="_blank"
-										rel="noopener noreferrer"
-									>GitHub
-										<img
-											src="https://img.icons8.com/clouds/50/000000/github.png"
-											alt="github"
-										/>
-									</a>
-								</div>
+									<img
+										src={projone}
+										alt="first project"
+										className="proj-card"
+									/>
+									<div className="deployed-links">
+										<a
+											href="https://gbrochure-site.herokuapp.com/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Deployed
+											<img
+												src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+												alt="deployed"
+											/>
+										</a>
+										<a
+											href="https://github.com/Gurinderp/brochure-site"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											GitHub
+											<img
+												src="https://img.icons8.com/clouds/50/000000/github.png"
+												alt="github"
+											/>
+										</a>
+									</div>
 								</div>
 								<div className="card-right">
 									<div className="tech-descrip">
-										<p className="project-title">Brochure Example Site</p>
+										<p className="project-title">
+											Brochure Example Site
+										</p>
 										<u>Built Using</u>
 										<p>HTML, CSS, JavaScript, and React</p>
 									</div>
 									<div className="proj-descrip">
-										<p>This project was designed as a travel brochure website. The project uses India as a foundation, and its design was inspired by the Flag of India.</p>
+										<p>
+											This project was designed as a
+											travel brochure website. The project
+											uses India as a foundation, and its
+											design was inspired by the Flag of
+											India.
+										</p>
 									</div>
 								</div>
 							</div>
@@ -108,38 +124,50 @@ function Home() {
 						<div className="projects">
 							<div className="projects-card">
 								<div className="card-left">
-								<img src={projtwo} alt="second project" className="proj-card"/>
-								<div className="deployed-links">
-									<a
-										href="https://butteronbread.herokuapp.com/"
-										target="_blank"
-										rel="noopener noreferrer"
-									>Deployed
-										<img
-											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-											alt="deployed"
-										/>
-									</a>
-									<a
-										href="https://github.com/Gurinderp/butteronbread"
-										target="_blank"
-										rel="noopener noreferrer"
-									>GitHub
-										<img
-											src="https://img.icons8.com/clouds/50/000000/github.png"
-											alt="github"
-										/>
-									</a>
-								</div>
+									<img
+										src={projtwo}
+										alt="second project"
+										className="proj-card"
+									/>
+									<div className="deployed-links">
+										<a
+											href="https://butteronbread.herokuapp.com/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Deployed
+											<img
+												src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+												alt="deployed"
+											/>
+										</a>
+										<a
+											href="https://github.com/Gurinderp/butteronbread"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											GitHub
+											<img
+												src="https://img.icons8.com/clouds/50/000000/github.png"
+												alt="github"
+											/>
+										</a>
+									</div>
 								</div>
 								<div className="card-right">
 									<div className="tech-descrip">
-										<p className="project-title">Butter On Bread</p>
+										<p className="project-title">
+											Butter On Bread
+										</p>
 										<u>Built Using</u>
 										<p>HTML, CSS, JavaScript, and React.</p>
 									</div>
 									<div className="proj-descrip">
-										<p>Designed as a sample product site, this project focuses on "butter on bread".</p>
+										<p>
+											Designed as a sample product site,
+											this project focuses on "butter on
+											bread".
+										</p>
 									</div>
 								</div>
 							</div>
@@ -149,38 +177,55 @@ function Home() {
 						<div className="projects">
 							<div className="projects-card">
 								<div className="card-left">
-								<img src={dayplanner} alt="third project" className="proj-card"/>
-								<div className="deployed-links">
-									<a href="https://gurinderp.github.io/dayPlanner/"
-										target="_blank"
-										rel="noopener noreferrer">Deployed
-										<img
-											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-											alt="deployed"
+									<img
+										src={dayplanner}
+										alt="third project"
+										className="proj-card"
+									/>
+									<div className="deployed-links">
+										<a
+											href="https://gurinderp.github.io/dayPlanner/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Deployed
+											<img
+												src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+												alt="deployed"
 											/>
-									</a>
-									<a
-										href="https://github.com/Gurinderp/dayPlanner"
-										target="_blank"
-										rel="noopener noreferrer"
-										>GitHub
-										<img
-											src="https://img.icons8.com/clouds/50/000000/github.png"
-											alt="github"
+										</a>
+										<a
+											href="https://github.com/Gurinderp/dayPlanner"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											GitHub
+											<img
+												src="https://img.icons8.com/clouds/50/000000/github.png"
+												alt="github"
 											/>
-									</a>
-								</div>
+										</a>
+									</div>
 								</div>
 								<div className="card-right">
 									<div className="tech-descrip">
-										<p className="project-title">Day Planner</p>
+										<p className="project-title">
+											Day Planner
+										</p>
 										<u>Built Using</u>
-										<p>HTML, CSS, JavaScript, and Moment JS</p>
+										<p>
+											HTML, CSS, JavaScript, and Moment JS
+										</p>
 									</div>
 									<div className="proj-descrip">
-										<p>A simple day planner used to keep track of tasks. 
-											The project uses local time to determine which tasks should be complete, 
-											should be completed soon, and which can be done later.</p>
+										<p>
+											A simple day planner used to keep
+											track of tasks. The project uses
+											local time to determine which tasks
+											should be complete, should be
+											completed soon, and which can be
+											done later.
+										</p>
 									</div>
 								</div>
 							</div>
@@ -188,37 +233,56 @@ function Home() {
 						<div className="projects">
 							<div className="projects-card">
 								<div className="card-left">
-									<img src={fitness} alt="fourth project" className="proj-card"/>
+									<img
+										src={fitness}
+										alt="fourth project"
+										className="proj-card"
+									/>
 									<div className="deployed-links">
-									<a href="https://ftnesstracker.herokuapp.com/"
-										target="_blank"
-										rel="noopener noreferrer">Deployed
-										<img
-											src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
-											alt="deployed"
+										<a
+											href="https://ftnesstracker.herokuapp.com/"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											Deployed
+											<img
+												src="https://img.icons8.com/flat_round/50/000000/arrow--v1.png"
+												alt="deployed"
 											/>
-									</a>
-									<a
-										href="https://github.com/Gurinderp/fitness-tracker"
-										target="_blank"
-										rel="noopener noreferrer"
-										>GitHub
-										<img
-											src="https://img.icons8.com/clouds/50/000000/github.png"
-											alt="github"
+										</a>
+										<a
+											href="https://github.com/Gurinderp/fitness-tracker"
+											target="_blank"
+											rel="noopener noreferrer"
+										>
+											GitHub
+											<img
+												src="https://img.icons8.com/clouds/50/000000/github.png"
+												alt="github"
 											/>
-									</a>
+										</a>
 									</div>
 								</div>
 								<div className="card-right">
 									<div className="tech-descrip">
-										<p className="project-title">Fitness Tracker</p>
+										<p className="project-title">
+											Fitness Tracker
+										</p>
 										<u>Built Using</u>
-										<p>HTML, CSS, JavaScript, React, Node.js, Express, and MongoDB</p>
+										<p>
+											HTML, CSS, JavaScript, React,
+											Node.js, Express, and MongoDB
+										</p>
 									</div>
 									<div className="proj-descrip">
-										<p>A Full Stack project which utilizes the MERN stack. This application helps you keep track of your exercise 
-											activity by allowing you to log your progress. It will keep the progress saved to form a fitness log.
+										<p>
+											A Full Stack project which utilizes
+											the MERN stack. This application
+											helps you keep track of your
+											exercise activity by allowing you to
+											log your progress. It will keep the
+											progress saved to form a fitness
+											log.
 										</p>
 									</div>
 								</div>
@@ -247,14 +311,14 @@ function Home() {
 							<img
 								src="https://img.icons8.com/color/96/000000/javascript.png"
 								alt="JavaScript"
-								/>
+							/>
 							<p>JavaScript</p>
 						</div>
 						<div className="skill-container">
 							<img
 								src="https://img.icons8.com/nolan/96/react-native.png"
 								alt="React"
-								/>
+							/>
 							<p>React</p>
 						</div>
 					</div>
@@ -267,7 +331,7 @@ function Home() {
 							<img
 								src="https://img.icons8.com/color/96/000000/mongodb.png"
 								alt="MongoDB"
-								/>
+							/>
 							<p>MongoDB</p>
 						</div>
 						<div className="skill-container">
@@ -278,7 +342,7 @@ function Home() {
 							<img
 								src="https://img.icons8.com/color/96/000000/nodejs.png"
 								alt="Node.JS"
-								/>
+							/>
 							<p>NodeJS</p>
 						</div>
 					</div>
