@@ -10,6 +10,8 @@ import dayplanner from "../../assets/dayplanner.png";
 import fitness from "../../assets/ftnstrkr.png";
 import jquery from "../../assets/jquery.png";
 import heroku from "../../assets/heroku-logo.png";
+import bootstrap from "../../assets/bootstraplogo.png";
+import webpack from "../../assets/webpacklogo.png";
 
 function Home() {
 	return (
@@ -354,6 +356,14 @@ function Home() {
 						<div className="skill-container">
 							<img src={heroku} alt="Heroku" />
 							<p>Heroku</p>
+						</div>
+						<div className="skill-container">
+							<img src={bootstrap} alt="Bootstrap" />
+							<p>Bootstrap</p>
+						</div>
+						<div className="skill-container">
+							<img src={webpack} alt="Webpack" />
+							<p>Webpack</p>
 						</div>
 					</div>
 				</div>

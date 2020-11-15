@@ -12,17 +12,10 @@ nav {
 	margin-right: auto;
 	padding-top: 3vh;
 	padding-bottom: 3vh;
-	position: sticky;
 	overflow: auto;
 	text-align: center;
-	width: 80%;
+	width: 83%;
 }
-
-/*delete this
-nav {
-	margin-bottom: 2vh;
-}
-*/
 
 .top-links {
 	display: flex;

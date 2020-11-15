@@ -1,6 +1,8 @@
 embed {
-	margin-left: 10%;
 	height: 80vh;
+	transform: translate(-50%);
+	margin-left: 50%;
+	margin-top: 3vh;
 	width: 70vw;
 }
 

@@ -1,6 +1,6 @@
 import React from "react";
 import "./index.css";
-import pdf from "../../assets/resume.pdf";
+import pdf from "../../assets/WebDev.pdf";
 
 function Resume() {
 	return (

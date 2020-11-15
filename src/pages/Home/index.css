@@ -4,6 +4,11 @@ html {
 	scroll-behavior: smooth;
 }
 
+a:focus {
+	outline: none;
+	box-shadow: none;
+}
+
 body {
 	color: white;
 	background-image: url(../../assets/bg1-2.jpg);
@@ -20,7 +25,7 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	background-color: rgba(0, 0, 0, 0.938);
-	width: 80%;
+	width: 83%;
 	height: auto;
 	padding-bottom: 5%;
 }
@@ -140,6 +145,8 @@ body {
 
 .media-links img {
 	margin-left: 10%;
+	transform: scale(1.2);
+	transition: transform 0.4s ease-out;
 }
 
 .media-links img:hover {
