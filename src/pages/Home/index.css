@@ -5,36 +5,29 @@ html {
 }
 
 a:focus {
-	outline: none;
 	box-shadow: none;
+	outline: none;
 }
 
 body {
-	color: white;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-attachment: fixed;
 	background-image: url(../../assets/bg1-2.jpg);
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
-	background-size: cover;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
+	color: white;
 	position: relative;
 }
 
 .container {
+	background-color: rgba(0, 0, 0, 0.938);
+	height: auto;
 	margin-right: auto;
 	margin-left: auto;
-	background-color: rgba(0, 0, 0, 0.938);
-	width: 83%;
-	height: auto;
 	padding-bottom: 5%;
-}
-
-.deployed-links {
-	/*
-	height: 6.3vh;
-	width: 16vw;
-	*/
+	width: 83%;
 }
 
 .heading {
@@ -45,8 +38,8 @@ body {
 		rgba(0, 5, 0, 0.93),
 		rgba(0, 80, 0, 0.24)
 	);
-	min-height: 74vh;
 	justify-content: center;
+	min-height: 74vh;
 }
 
 .heading-left {
@@ -58,11 +51,11 @@ body {
 	color: #13cf5b;
 	font-size: 10vh;
 	font-family: "Noticia Text", serif;
-	text-align: center;
 	letter-spacing: 0.3vw;
 	line-height: 1.4;
-	padding: 5vh;
 	margin-top: 7vh;
+	padding: 5vh;
+	text-align: center;
 }
 
 .heading-right {
@@ -71,37 +64,21 @@ body {
 
 .heading-hello {
 	color: #13cf5b;
-	font-size: 5vh;
+	font-size: 1.6em;
 	font-family: "Noticia Text", serif;
+	letter-spacing: 0.1em;
+	width: 70%;
 }
-
-.heading-title {
-}
-
-/*
-.heading h3 {
-	width: 40%;
-	word-spacing: 3px;
-}
-
-.heading-text {
-	margin-left: 25%;
-	margin-top: 10%;
-	font-size: 2vw;
-}
-*/
 
 .homepage-links {
 	display: flex;
-	justify-content: space-around;
-	width: 25%;
-	padding-left: 0;
 	font-size: 1.8vw;
 	justify-content: space-around;
 	list-style-type: none;
 	margin: 15px;
 	margin-left: auto;
 	margin-right: auto;
+	padding-left: 0;
 	text-decoration: none;
 	width: 40%;
 }
@@ -118,29 +95,29 @@ body {
 }
 
 .img-fluid {
+	position: fixed;
 	width: 100%;
 	z-index: -1;
-	position: fixed;
 }
 
 .media-links {
-	letter-spacing: 0.1vw;
 	font-family: "Noticia Text", serif;
+	letter-spacing: 0.1vw;
 }
 
 .media-links a,
 .proj-list a {
-	text-decoration: none;
 	color: rgb(0, 255, 0);
+	text-decoration: none;
 }
 
 .media-links,
 .heading-hello {
 	display: flex;
-	transform: translate(-50%);
+	justify-content: space-evenly;
 	margin-left: 50%;
 	margin-top: 5vh;
-	justify-content: space-evenly;
+	transform: translate(-50%);
 }
 
 .media-links img {
@@ -160,15 +137,11 @@ body {
 }
 
 .self-pic {
-	width: 17vw;
-	height: 17vw;
 	border-radius: 50%;
+	height: 17vw;
 	margin-left: 45%;
 	margin-top: 25%;
-}
-
-.skills,
-.projects {
+	width: 17vw;
 }
 
 .skills,
@@ -192,13 +165,12 @@ body {
 	color: #60db8f;
 	font-size: 2.5vw;
 	font-family: "Noticia Text", serif;
-	padding: 0;
+	margin-left: auto;
+	margin-right: auto;
 	padding-top: 1vh;
 	padding-bottom: 4vh;
 	text-align: center;
 	width: 50%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
 .skill-image {
@@ -210,6 +182,11 @@ body {
 .skill-image img {
 	height: 15vh;
 	padding: 1vh;
+}
+
+.skill-image img,
+.proj-list a img {
+	transition: transform 0.3s ease-out;
 }
 
 .skill-image img:hover,
@@ -231,13 +208,10 @@ body {
 	justify-content: center;
 }
 
-.proj-row {
-}
-
 .projects img {
-	width: 16vw;
 	height: 30vh;
 	padding: 1vh;
+	width: 16vw;
 }
 
 .projects a img {
@@ -246,10 +220,10 @@ body {
 }
 
 .projects-card {
-	display: flex;
 	background-color: #24854985;
 	border: 10px double #41dd7d85;
 	border-radius: 10px;
+	display: flex;
 	font-family: "Noticia Text", serif;
 	line-height: 1.3vw;
 	margin: 1vw;
@@ -257,8 +231,8 @@ body {
 }
 
 .project-title {
-	text-align: center;
 	font-size: 1.5vw;
+	text-align: center;
 	margin-top: 2vh;
 	margin-bottom: 3vh;
 }

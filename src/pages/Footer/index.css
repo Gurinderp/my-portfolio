@@ -1,14 +1,14 @@
 .footer-container {
-	display: flex;
 	background-color: rgba(0, 0, 0, 0.93);
+	display: flex;
 	font-size: 1.7vh;
 	font-family: "Noticia Text", serif;
 	height: auto;
-	width: 83%;
 	min-height: 10vh;
 	margin-left: 50%;
-	padding-bottom: 1.5%;
+	position: absolute;
 	transform: translate(-50%);
+	width: 83%;
 }
 
 .footer-title {
@@ -16,9 +16,9 @@
 }
 
 .bot-sect {
-	width: 30%;
 	height: auto;
-	padding: 2%;
 	line-height: 1.2;
 	margin-left: 3%;
+	padding: 2%;
+	width: 30%;
 }

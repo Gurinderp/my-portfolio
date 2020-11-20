@@ -10,9 +10,9 @@ nav {
 	height: 9vh;
 	margin-left: auto;
 	margin-right: auto;
+	overflow: auto;
 	padding-top: 3vh;
 	padding-bottom: 3vh;
-	overflow: auto;
 	text-align: center;
 	width: 83%;
 }
@@ -25,8 +25,8 @@ nav {
 	margin: 15px;
 	margin-left: auto;
 	margin-right: auto;
-	text-decoration: none;
 	padding: 0.6vw;
+	text-decoration: none;
 	width: 90%;
 }
 

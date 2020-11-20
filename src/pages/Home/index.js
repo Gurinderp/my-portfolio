@@ -19,11 +19,7 @@ function Home() {
 			<div className="heading">
 				<div className="heading-left">
 					<div className="heading-name">
-						<p>
-							Gurinderpreet
-							<br />
-							Singh
-						</p>
+						<p>Gurinderpreet Singh</p>
 					</div>
 					<div className="media-links">
 						<a
@@ -52,10 +48,10 @@ function Home() {
 					</div>
 				</div>
 				<div className="heading-right">
-					<p className="heading-title">
-						Full Stack <br /> Developer
-					</p>
-					<p className="heading-hello">Hello world!</p>
+					<p className="heading-title">Full Stack Developer</p>
+					<div className="heading-hello">
+						<p>console.log("Hello World!")</p>
+					</div>
 				</div>
 			</div>
 			<div className="homepage-links">
