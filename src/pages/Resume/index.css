@@ -5,6 +5,10 @@ embed {
 	width: 70vw;
 }
 
+.hide {
+	display: none;
+}
+
 .resume-container {
 	background-image: linear-gradient(
 		to top,
@@ -12,4 +16,20 @@ embed {
 		rgba(0, 5, 0, 0.93),
 		rgba(0, 80, 0, 0.24)
 	);
+	min-height: 54vh;
+}
+
+.resume-selection-btns {
+	font-size: 1.5em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 4vh;
+	width: 48%;
+}
+
+.resume-selection-btns button {
+	color: #13cf5b;
+	background-color: transparent;
+	border: none;
+	margin-left: 2vw;
 }
