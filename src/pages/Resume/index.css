@@ -20,16 +20,20 @@ embed {
 }
 
 .resume-selection-btns {
-	font-size: 1.5em;
+	font-size: 1.3em;
 	margin-left: auto;
 	margin-right: auto;
 	padding-top: 4vh;
-	width: 48%;
+	width: 60%;
 }
 
 .resume-selection-btns button {
 	color: #13cf5b;
-	background-color: transparent;
+	background-color: #0629135e;
+	box-shadow: 0px 0px 10px 3px #085325;
 	border: none;
-	margin-left: 2vw;
+	border-radius: 5px;
+	margin-left: 3.2vw;
+	padding: 1vh;
+	width: 8vw;
 }
