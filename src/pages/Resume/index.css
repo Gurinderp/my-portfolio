@@ -1,7 +1,15 @@
+.crc {
+	padding-top: 1.5vh;
+}
+
 embed {
 	height: 80vh;
 	margin-top: 3vh;
 	width: 70vw;
+}
+
+.education-schoolname {
+	font-size: 1.4em;
 }
 
 .hide {
@@ -26,6 +34,7 @@ embed {
 .resume-section-title {
 	font-size: 1.5rem;
 	text-decoration: underline;
+	padding-bottom: 1.5vh;
 }
 
 .resume-section-containers {
@@ -34,10 +43,10 @@ embed {
 	margin-right: auto;
 	padding-top: 7vh;
 	line-height: 1.5em;
-	width: 80%;
+	width: 70%;
 }
 
-.resume-section-containers p {
+.resume-skills-section {
 }
 
 /*

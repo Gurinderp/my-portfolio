@@ -29,28 +29,15 @@ function Resume() {
 			</div>
 			<div className="resume-skills-section resume-section-containers">
 				<div className="resume-skills-languages">
-					<p className="resume-section-title">Languages</p>
-					<p>HTML</p>
-					<p>CSS</p>
-					<p>JavaScript</p>
-					<p>Python</p>
+					<p className="resume-section-title">Knowledge</p>
+					<p>Languages: HTML, CSS, JavaScript, Python</p>
 				</div>
 				<div className="resume-skills-tools">
-					<p className="resume-section-title">Tools</p>
-					<p>Bootstrap</p>
-					<p>jQuery</p>
-					<p>Git</p>
-					<p>GitHub</p>
-					<p>Node.JS</p>
-					<p>Express</p>
-					<p>MySQL</p>
-					<p>Sequelize</p>
-					<p>MongoDB</p>
-					<p>Mongoose</p>
-					<p>Handlebars.js</p>
-					<p>Postman</p>
-					<p>Heroku</p>
-					<p>React</p>
+					<p>
+						Tools: jQuery, Bootstrap, Git, GitHub, Node.js, Express,
+						MySQL, Sequelize, MongoDB, Mongoose, Handlebars.js,
+						Postman, Heroku, &amp; React.
+					</p>
 				</div>
 			</div>
 			<div className="resume-education-section resume-section-containers">
@@ -72,7 +59,7 @@ function Resume() {
 					</p>
 				</div>
 				<div>
-					<p className="education-schoolname">
+					<p className="education-schoolname crc">
 						Cosumnes River College
 					</p>
 					<p className="education-degree">
