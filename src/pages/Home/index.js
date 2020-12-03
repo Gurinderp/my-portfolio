@@ -12,6 +12,10 @@ import jquery from "../../assets/jquery.png";
 import heroku from "../../assets/heroku-logo.png";
 import bootstrap from "../../assets/bootstraplogo.png";
 import webpack from "../../assets/webpacklogo.png";
+import python from "../../assets/pythonlogo.png";
+import git from "../../assets/gitlogo.png";
+import github from "../../assets/githublogo.png";
+import restapi from "../../assets/restapilogo.png";
 
 function Home() {
 	return (
@@ -360,6 +364,24 @@ function Home() {
 						<div className="skill-container">
 							<img src={webpack} alt="Webpack" />
 							<p>Webpack</p>
+						</div>
+					</div>
+					<div className="row">
+						<div className="skill-container">
+							<img src={python} alt="MySQL" />
+							<p>Python</p>
+						</div>
+						<div className="skill-container">
+							<img src={git} alt="Heroku" />
+							<p>Git</p>
+						</div>
+						<div className="skill-container">
+							<img src={github} alt="Bootstrap" />
+							<p>GitHub</p>
+						</div>
+						<div className="skill-container">
+							<img src={restapi} alt="Webpack" />
+							<p>Rest API</p>
 						</div>
 					</div>
 				</div>
