@@ -39,20 +39,15 @@ nav {
 	position: relative;
 }
 
-@media only screen and (max-width: 810px) {
+@media only screen and (max-width: 480px) {
 	nav {
-		height: 60px;
+		height: 9vh;
+		padding-top: 3vh;
+		padding-bottom: 0vh;
+		width: 100%;
 	}
-	.logo {
-		margin-left: 5%;
-	}
-}
 
-@media only screen and (max-width: 610px) {
-	nav {
-		height: 50px;
-	}
-	.logo {
-		margin-left: 15%;
+	.top-links {
+		font-size: 0.8em;
 	}
 }
