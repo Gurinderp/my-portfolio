@@ -13,9 +13,9 @@ function Resume() {
 				<button className="resume-download-btn">Download</button>
 			</div>
 			*/}
-			<div className="resume-summary-section">
+			<div className="resume-summary-section resume-section-containers">
 				<div>
-					<p>Summary</p>
+					<p className="resume-section-title">Summary</p>
 					<p>
 						Certified Full Stack Web Developer specializing in React
 						Development. Achieved at the University of California,
@@ -27,14 +27,16 @@ function Resume() {
 					</p>
 				</div>
 			</div>
-			<div className="hide resume-skills-section">
+			<div className="resume-skills-section resume-section-containers">
 				<div className="resume-skills-languages">
+					<p className="resume-section-title">Languages</p>
 					<p>HTML</p>
 					<p>CSS</p>
 					<p>JavaScript</p>
 					<p>Python</p>
 				</div>
 				<div className="resume-skills-tools">
+					<p className="resume-section-title">Tools</p>
 					<p>Bootstrap</p>
 					<p>jQuery</p>
 					<p>Git</p>
@@ -51,11 +53,15 @@ function Resume() {
 					<p>React</p>
 				</div>
 			</div>
-			<div className="hide resume-education-section">
-				<p>Education</p>
+			<div className="resume-education-section resume-section-containers">
+				<p className="resume-section-title">Education</p>
 				<div>
-					<p>University of California, Davis</p>
-					<p>Web Development Boot Camp - 2019-2020</p>
+					<p className="education-schoolname">
+						University of California, Davis
+					</p>
+					<p className="education-degree">
+						Web Development Boot Camp - 2019-2020
+					</p>
 					<p>
 						A 24-week intensive program focused on building
 						technical programming skills in HTML5, CSS3, Javascript,
@@ -66,12 +72,17 @@ function Resume() {
 					</p>
 				</div>
 				<div>
-					<p>Cosumnes River College</p>
-					<p>Associate in Science, Computer Science - In Progress</p>
+					<p className="education-schoolname">
+						Cosumnes River College
+					</p>
+					<p className="education-degree">
+						Associate in Science, Computer Science - In Progress
+					</p>
 					<p>Expected Graduation: December 2021</p>
 				</div>
 			</div>
-			<div className="hide resume-download-section">
+			<div className="resume-download-section">
+				<p className="resume-section-title">Download Below</p>
 				<embed src={pdf}></embed>
 			</div>
 		</div>

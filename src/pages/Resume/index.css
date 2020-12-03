@@ -1,7 +1,6 @@
 embed {
 	height: 80vh;
 	margin-top: 3vh;
-	margin-left: 8%;
 	width: 70vw;
 }
 
@@ -19,6 +18,29 @@ embed {
 	min-height: 54vh;
 }
 
+.resume-download-section {
+	padding-top: 5vh;
+	text-align: center;
+}
+
+.resume-section-title {
+	font-size: 1.5rem;
+	text-decoration: underline;
+}
+
+.resume-section-containers {
+	font-size: 1.2em;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 7vh;
+	line-height: 1.5em;
+	width: 80%;
+}
+
+.resume-section-containers p {
+}
+
+/*
 .resume-selection-btns {
 	font-size: 1.3em;
 	margin-left: auto;
@@ -37,3 +59,4 @@ embed {
 	padding: 1vh;
 	width: 8vw;
 }
+*/
