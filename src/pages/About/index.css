@@ -52,3 +52,43 @@
 	margin-right: auto;
 	width: 50%;
 }
+
+@media only screen and (max-width: 480px) {
+	.aboutme-bottom {
+		font-size: 1em;
+		letter-spacing: 0.1vw;
+		line-height: 3.5vh;
+		margin-left: auto;
+		margin-right: auto;
+		width: 90%;
+	}
+
+	.aboutme-top {
+		margin-left: auto;
+		margin-right: auto;
+		padding: 5vw;
+		padding-bottom: 5vh;
+		padding-top: 5vh;
+		width: 90%;
+	}
+
+	.aboutpage-media {
+		font-size: 0.5em;
+		padding-top: 5vh;
+	}
+
+	.my-pic {
+		border-radius: 15px;
+		height: 27vh;
+	}
+
+	.selfpic {
+		width: 40%;
+	}
+
+	.topright-about {
+		font-size: 1em;
+		margin-left: 13vw;
+		width: 50%;
+	}
+}
