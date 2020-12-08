@@ -270,7 +270,9 @@ function Home() {
 										<p className="project-title">
 											Fitness Tracker
 										</p>
-										<u>Built Using</u>
+										<u className="builtusing-text">
+											Built Using
+										</u>
 										<p>
 											HTML, CSS, JavaScript, React,
 											Node.js, Express, and MongoDB

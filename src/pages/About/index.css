@@ -80,7 +80,7 @@
 
 	.my-pic {
 		border-radius: 15px;
-		height: 27vh;
+		width: 38vw;
 	}
 
 	.selfpic {
@@ -88,7 +88,7 @@
 	}
 
 	.topright-about {
-		font-size: 1em;
+		font-size: 1.5em;
 		margin-left: 13vw;
 		width: 50%;
 	}
@@ -121,7 +121,7 @@
 
 	.my-pic {
 		border-radius: 15px;
-		height: 27vh;
+		width: 34vw;
 	}
 
 	.selfpic {
@@ -129,8 +129,8 @@
 	}
 
 	.topright-about {
-		font-size: 1em;
-		margin-left: 13vw;
+		font-size: 1.5em;
+		margin-left: 8vw;
 		width: 50%;
 	}
 }
