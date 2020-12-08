@@ -67,7 +67,8 @@ embed {
 }
 */
 
-@media only screen and (max-width: 480px) {
+/*Mobile Devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 	.crc {
 		padding-top: 1.5vh;
 	}
@@ -115,4 +116,65 @@ embed {
 		line-height: 1.5em;
 		width: 70%;
 	}
+}
+
+/*Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.crc {
+		padding-top: 1.5vh;
+	}
+
+	embed {
+		height: 80vh;
+		margin-top: 3vh;
+		width: 70vw;
+	}
+
+	.education-schoolname {
+		font-size: 1.4em;
+	}
+
+	.hide {
+		display: none;
+	}
+
+	.resume-container {
+		background-image: linear-gradient(
+			to top,
+			rgba(0, 0, 0, 0.93),
+			rgba(0, 5, 0, 0.93),
+			rgba(0, 80, 0, 0.24)
+		);
+		min-height: 54vh;
+	}
+
+	.resume-download-section {
+		padding-top: 5vh;
+		text-align: center;
+	}
+
+	.resume-section-title {
+		font-size: 1.2em;
+		text-decoration: underline;
+		padding-bottom: 1.5vh;
+	}
+
+	.resume-section-containers {
+		font-size: 0.8em;
+		margin-left: auto;
+		margin-right: auto;
+		padding-top: 7vh;
+		line-height: 1.5em;
+		width: 70%;
+	}
+}
+
+/*Small screens, laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+/*Desktops, large screens*/
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+/*extra large screens, TV*/
+@media only screen and (min-width: 1201px) {
 }

@@ -23,7 +23,8 @@
 	width: 30%;
 }
 
-@media only screen and (max-width: 480px) {
+/*Mobile Devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 	.footer-container {
 		font-size: 0.3em;
 		width: 100%;
@@ -32,4 +33,26 @@
 	.footer-title {
 		font-weight: bold;
 	}
+}
+
+/*Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	.footer-container {
+		font-size: 0.3em;
+		width: 100%;
+	}
+
+	.footer-title {
+		font-weight: bold;
+	}
+}
+
+/*Small screens, laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+/*Desktops, large screens*/
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+/*extra large screens, TV*/
+@media only screen and (min-width: 1201px) {
 }

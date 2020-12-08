@@ -39,7 +39,8 @@ nav {
 	position: relative;
 }
 
-@media only screen and (max-width: 480px) {
+/*Mobile Devices*/
+@media only screen and (min-width: 320px) and (max-width: 480px) {
 	nav {
 		height: 9vh;
 		padding-top: 3vh;
@@ -50,4 +51,28 @@ nav {
 	.top-links {
 		font-size: 0.8em;
 	}
+}
+
+/*Tablets*/
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+	nav {
+		height: 9vh;
+		padding-top: 3vh;
+		padding-bottom: 0vh;
+		width: 100%;
+	}
+
+	.top-links {
+		font-size: 0.8em;
+	}
+}
+
+/*Small screens, laptops*/
+@media only screen and (min-width: 769px) and (max-width: 1024px) {
+}
+/*Desktops, large screens*/
+@media only screen and (min-width: 1025px) and (max-width: 1200px) {
+}
+/*extra large screens, TV*/
+@media only screen and (min-width: 1201px) {
 }
