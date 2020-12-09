@@ -136,14 +136,6 @@ body {
 	margin-left: 10%;
 }
 
-.self-pic {
-	border-radius: 50%;
-	height: 17vw;
-	margin-left: 45%;
-	margin-top: 25%;
-	width: 17vw;
-}
-
 .skills,
 .project-list {
 	height: auto;
@@ -313,8 +305,9 @@ body {
 	}
 
 	.skill-image img {
-		height: 6vh;
+		max-height: 6vh;
 		padding: 1vh;
+		width: 10vw;
 	}
 	.proj-descrip {
 		margin-top: 3vh;
