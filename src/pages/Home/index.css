@@ -481,15 +481,16 @@ body {
 	}
 
 	.card-left {
-		width: 45%;
+		width: 50%;
 	}
 
 	.card-right {
-		width: 55%;
+		width: 50%;
+		margin-right: 1vw;
 	}
 
-	.deployed-links a {
-		font-size: 1.2em;
+	.deployed-links {
+		font-size: 1.5em;
 	}
 
 	.heading {
@@ -498,33 +499,33 @@ body {
 
 	.heading-name,
 	.heading-title {
-		font-size: 2.5em;
+		font-size: 3.7em;
 		letter-spacing: 0.3vw;
 		line-height: 1.4;
-		margin-top: 4vh;
+		margin-top: 3vh;
 		padding: 1vh;
 	}
 
 	.heading-hello {
-		font-size: 1em;
+		font-size: 1.4em;
 		letter-spacing: 0.1em;
-		width: 80%;
+		width: 100%;
 	}
 
 	.homepage-links {
 		display: flex;
-		font-size: 1em;
+		font-size: 1.6em;
 		margin: 0px;
 		margin-left: auto;
 		margin-right: auto;
 		padding-left: 0;
 		padding-bottom: 7vh;
-		width: 45%;
+		width: 55%;
 	}
 
 	.media-links {
-		font-size: 0.8em;
-		letter-spacing: 0.1vw;
+		font-size: 1.3em;
+		letter-spacing: 0.2vw;
 	}
 
 	.media-links img {
@@ -534,12 +535,12 @@ body {
 	}
 
 	.skill-container {
-		font-size: 0.9em;
+		font-size: 1.6em;
 	}
 
 	.skill-wording,
 	.proj-text {
-		font-size: 1.8em;
+		font-size: 2.5em;
 		margin-left: auto;
 		margin-right: auto;
 		padding-top: 2vh;
@@ -548,7 +549,7 @@ body {
 	}
 
 	.skill-image img {
-		height: 9vh;
+		height: 8.9vh;
 		padding: 1vh;
 	}
 
@@ -567,9 +568,9 @@ body {
 	}
 
 	.projects img {
-		height: 30vh;
+		height: 25vh;
 		padding: 1vh;
-		width: 36vw;
+		width: 40vw;
 	}
 
 	.projects a img {
@@ -579,7 +580,7 @@ body {
 
 	.projects-card {
 		display: flex;
-		font-size: 1em;
+		font-size: 1.4em;
 		height: auto;
 		line-height: 2.8vh;
 		margin: 3vh;
@@ -588,7 +589,7 @@ body {
 	}
 
 	.projects a {
-		font-size: 0.9em;
+		font-size: 0.7em;
 	}
 
 	.project-title {
