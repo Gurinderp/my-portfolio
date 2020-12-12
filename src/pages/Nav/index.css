@@ -82,6 +82,16 @@ nav {
 }
 /*Desktops, large screens*/
 @media only screen and (min-width: 1025px) and (max-width: 1200px) {
+	nav {
+		height: 9vh;
+		padding-top: 3vh;
+		padding-bottom: 0vh;
+		width: 93%;
+	}
+
+	.top-links {
+		font-size: 1.6em;
+	}
 }
 /*extra large screens, TV*/
 @media only screen and (min-width: 1201px) {
