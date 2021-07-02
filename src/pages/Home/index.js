@@ -7,7 +7,7 @@ import css from "../../assets/css.png";
 import projone from "../../assets/idprojsample.png";
 import projtwo from "../../assets/buonbrpic.png";
 import dayplanner from "../../assets/dayplanner.png";
-import fitness from "../../assets/ftnstrkr.png";
+import vanDex from "../../assets/vanDex.png";
 import jquery from "../../assets/jquery.png";
 import heroku from "../../assets/heroku-logo.png";
 import bootstrap from "../../assets/bootstraplogo.png";
@@ -236,7 +236,7 @@ function Home() {
 							<div className="projects-card">
 								<div className="card-left">
 									<img
-										src={fitness}
+										src={vanDex}
 										alt="fourth project"
 										className="proj-card"
 									/>
@@ -268,25 +268,24 @@ function Home() {
 								<div className="card-right">
 									<div className="tech-descrip">
 										<p className="project-title">
-											Fitness Tracker
+											Vanilla Dex
 										</p>
 										<u className="builtusing-text">
 											Built Using
 										</u>
 										<p>
-											HTML, CSS, JavaScript, React,
-											Node.js, Express, and MongoDB
+											HTML, CSS/SASS, JavaScript, EJS,
+											Node.js, Express, Heroku and MongoDB
 										</p>
 									</div>
 									<div className="proj-descrip">
 										<p>
 											A Full Stack project which utilizes
-											the MERN stack. This application
-											helps you keep track of your
-											exercise activity by allowing you to
-											log your progress. It will keep the
-											progress saved to form a fitness
-											log.
+											the EJS view engine. A PokeDex made
+											using the MVC paradigm. The theme
+											follows the colors of the first
+											PokeDex shown in the original
+											series.
 										</p>
 									</div>
 								</div>
