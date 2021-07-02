@@ -242,7 +242,7 @@ function Home() {
 									/>
 									<div className="deployed-links">
 										<a
-											href="https://ftnesstracker.herokuapp.com/"
+											href="https://vanilla-dex.herokuapp.com/"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
@@ -253,7 +253,7 @@ function Home() {
 											/>
 										</a>
 										<a
-											href="https://github.com/Gurinderp/fitness-tracker"
+											href="https://github.com/Gurinderp/vanillaDex"
 											target="_blank"
 											rel="noopener noreferrer"
 										>
